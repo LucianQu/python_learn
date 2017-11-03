@@ -1,5 +1,5 @@
 """****************-*******************"""
-# describe: 测试工程
+# describe: Python基本语法学习
 # author  : QLS
 # time    : 2017/11/2 23:04
 """****************-*******************"""
@@ -128,4 +128,120 @@ buff.insert(1, "ce2")
 buff.remove("ce3")  # 移除第一次出现的位置，从索引0开始找
 print(buff)
 """*-*"""
+"""****************-组织列表*******************"""
+cars = ['1', '2', '5', '4']
+print(cars)
+"""*-对列表进行永久排序*"""
+"""
+    排序时，如果有大写字母，先排大写字母，再排小写字母
+"""
+"""*-正向永久排序*"""
+cars.sort()
+print("****************Line:正向排序*******************")
+print(cars)
+"""*-逆向永久排序*"""
+cars.sort(reverse=True)
+print(cars)
+"""*-临时排序sorted()*"""
+print(sorted(cars))
+print(cars)
+"""*-倒着打印列表,永久性*"""
+cars.reverse()
+print(cars)
+"""*-确定列表长度*"""
+length = len(cars)
+print(length)
+"""
+Python计算列表长度是从1开始，索引是从0开始，没毛病
+任何时候都可以用-1访问最后一个元素，只有列表为空时才会错误用-1
+"""
 
+"""****************-遍历列表for循环*******************"""
+bfs = ['1', '2', '3', '4']
+for bf in bfs:
+    print(bf)  # python根据缩进判断代码和前一个代码行的关系，因此缩进不能任意进行
+    print(bf)
+print(bf)  # 使用for循环遍历一个角色列表，最后一个不缩进的代码块绘制一个play now按钮
+
+print("****************Line:166*******************")
+"""*-创建数值列表*"""
+for value in range(1, 5):
+    print(value)
+
+"""* 使用range创建数字列表 *"""
+numbers = list(range(1, 6))
+print(numbers)
+"""* [1, 2, 3, 4, 5] *"""
+
+even_numbers = list(range(1, 10, 2))
+print(even_numbers)
+
+even_numbers = list(range(2, 10, 2))
+print(even_numbers)
+
+even_numbers = list(range(3, 10, 5))
+print(even_numbers)
+
+squares = []  # 创建一个空的列表
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+    print(squares)
+print("****************Line:189*******************")
+
+"""* 对数值列表进行简单的统计 *"""
+print("最小值：" + str(min(squares)))
+print("最大值：" + str(max(squares)))
+print("数值的和：" + str(sum(squares)))
+print("****************Line:194*******************")
+
+"""* 列表解析 *"""
+squares = [value + 10 and value ** 2 for value in range(1, 10)]
+print(squares)
+#  语法介绍：指定一个描述性的列表名，如squares，定义表达式value ** 3，for循环给表达式提供值，只能有一个表达式，隐藏了append
+#  for循环结尾没有冒号：
+tests = [value for value in range(3, 30, 3)]
+for value in tests:
+    print(value)
+
+print("****************Line:测试立方根*******************")
+for value in range(3, 30, 3):
+    print(value)
+for value in range(1, 10):
+    print(value * value ** 2)
+"""**************** 使用列表的一部分俗称切片 *******************"""
+players = ['要命', '要洗', '要查', 'yaohe']
+print(players[0: 2])  # :前出现空格，会提示，同时线注释至少两个空格
+print(players[:4])  # 如果么有指引第一个索引，则python自动从头开始
+print(players[0:])  # if no index the last ,default to end
+print(players[-1:])
+print(players[-2:])  # -x 代表从后面往前面数几位
+print(players[:])
+"""
+#  场景：编写游戏时，你可以在玩家退出游戏时将其最终得分加入到一个列表，然后为获取该玩家的三个最高分，
+#  sort(reverse=True)可以降序或者升序排列列表，在获取后三个切片，
+#  编写web程序时，可分页显示信息，并在每页显示数量合适的信息
+"""
+"""* 复制lieb *"""
+player1 = players[:]
+print("**************** Describe:复制列表 *******************")
+print(player1)
+player1.append('ce')
+print(player1)
+print(players)
+# 注意：如果player1不使用切片，则player1和players指向同一个变量，使用切片，则是把copy了一份给player1，如果新变量添加元素，
+# 就代码老变量也添加元素
+test1 = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+lens = len(test1)
+lens2 = lens // 2
+print(lens2)
+print(test1[(lens2 - 1): (lens2 + 2)])
+
+"""**************** 元组 *******************"""
+# 列表非常适合用于存储在程序期间可能变化的数据集，这对于处理网站的用户列表或者游戏中的角色至关重要
+# 然而有时需要创建一系列不可修改的元素，元组可以满足这种需求，python将不可修改的值称为不可变，而不可变的列表称为元组
+"""
+Python从入门到实践 学习页码：41页 元祖 
+2017年11月3日 21：13 北京奥特科技股份有限公司
+北京市海淀区西北旺东路10号院互联网创新中心601
+"""
