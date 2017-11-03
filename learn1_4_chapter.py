@@ -241,7 +241,24 @@ print(test1[(lens2 - 1): (lens2 + 2)])
 # 列表非常适合用于存储在程序期间可能变化的数据集，这对于处理网站的用户列表或者游戏中的角色至关重要
 # 然而有时需要创建一系列不可修改的元素，元组可以满足这种需求，python将不可修改的值称为不可变，而不可变的列表称为元组
 """
-Python从入门到实践 学习页码：41页 元祖 
-2017年11月3日 21：13 北京奥特科技股份有限公司
-北京市海淀区西北旺东路10号院互联网创新中心601
+* Learn Start ! 
+* Time : 2017/11/3 21:13
+* Page : 41
+* Addr : Automic
 """
+
+"""
+* Learn Start ! 
+* Time : 2017/11/3 23:07
+* Page : 41
+* Addr : 史各庄
+"""
+# 元组使用圆括号括起来，定义元组后可以使用索引访问
+print("**************** Describe:249 *******************")
+dimension = (200, 50)
+print(dimension[0])
+# dimension[0] = 100  TypeError: 'tuple' object does not support item assignment
+# 遍历方法和列表一样
+
+
+

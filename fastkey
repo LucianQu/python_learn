@@ -14,3 +14,17 @@ cmm
 # author  : $author$
 # time    : $date$ $time$
 """****************-*******************"""
+ls
+"""
+* Learn Start !
+* Page : $page$
+* Time : $date$ $time$
+* Addr : $addr$
+"""
+le
+"""
+* Learn End !
+* Page : $page$
+* Time : $date$ $time$
+* Addr : $addr$
+"""
