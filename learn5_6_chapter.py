@@ -23,7 +23,7 @@ print(car1 == car3)
 print(car1 != car2)
 print(car1 != car3)
 
-print("**************** Describe:26 *******************")
+print("**************** Describe:练习if else *******************")
 age1 = 19
 age2 = 20
 #  多个条件时 && = and ， || = or
@@ -37,7 +37,7 @@ if age1 <= age2 or age1 < 19:
 else:
     print("this is false")
 
-print("**************** Describe:39 *******************")
+print("**************** Describe:练习 in， not in *******************")
 #  检查特定值是否包含在列表中用in
 t41 = ['t1', 't2', 't3', 't4', 't5']
 print('t1' in t41)
@@ -47,7 +47,7 @@ print('t6' in t41)
 isTrue = True
 print('isTrue : ' + str(isTrue))
 
-print("**************** Describe:50 *******************")
+print("**************** Describe:练习if语句 *******************")
 age1 = 12
 if age1 < 4:
     print('this is true age1 < 4')
@@ -62,7 +62,7 @@ if tt:  # tt等于空时，if语句能自动判断
 else:
     print('0')
 
-print("**************** Describe:65 *******************")
+print("**************** Describe:练习for循环 *******************")
 t66 = ['t1', 't2', 't3', 't4', 't5']
 t67 = ['t1', 't2', 't3', 't4', 't5', 't4', 't3', 't8', 't9']
 tIsExist = []
@@ -114,11 +114,11 @@ for name, languages in favorite_languages.items():
 for name in favorite_languages.keys():
     print(name.title())
 # 可根据keys或者values或者items来提前字典内容
-print("**************** Describe:110 *******************")
+print("**************** Describe:遍历value *******************")
 
 for name in favorite_languages.values():
     print(name.title())
-print("**************** Describe:107 *******************")
+print("**************** Describe:默认遍历key *******************")
 for name in favorite_languages:
     print(name.title())
 # 默认遍历key
@@ -129,3 +129,102 @@ for name in favorite_languages:
 * Page : 56
 * Addr : 史各庄
 """
+"""
+* Learn Start !
+* Time : 2017/11/4 0004 16:19
+* Page : 56
+* Addr : 北京奥特美克科技股份有限公司
+"""
+
+"""**************** 按照顺序遍历字典中的所有键 *******************"""
+te140 = {
+    't1': 't1',
+    't2': 't2',
+    't3': 't3',
+    't4': 't4',
+    't5': 't5',
+}
+for name in sorted(te140.keys(), reverse=True):  # 逆向排序,不改变原有的
+    print(name)
+print(te140.keys())  # dict_keys(['t1', 't2', 't3', 't4', 't5'])
+
+"""**************** 集合set剔除重复项，集合的元素独一无二 *******************"""
+te152 = {
+    't1': 't1',
+    't2': 't2',
+    't3': 't3',
+    't4': 't3',
+    't5': 't3',
+}
+temp = set(te152.values())
+for value in set(temp):  # set or sorted 用于创建临时列表，供for循环使用
+    print(value)
+print(temp)
+print(te152)
+print(set(te152.values()))
+
+print("**************** Describe:嵌套 *******************")
+print("有时需要将一系列字典{}存储在列表[]中，或者将列表[]存储在字典{}中，称为嵌套")
+
+te169 = {
+    't1': 't1',
+    't2': 't2',
+    't3': 't3',
+    't4': 't4',
+    't5': 't5',
+}
+te176 = {
+    't1': 't1',
+    't2': 't2',
+    't3': 't3',
+    't4': 't4',
+    't5': 't5',
+}
+
+dicts = [te169, te176]
+for value in dicts:
+    print(value.keys())
+lists = []
+for item in range(30):
+    listValue = {'position': item, 'value': item}
+    lists.append(listValue)
+    """
+    
+    """
+print(len(lists))
+"""打印lists长度，“”“”“”不能放在语句后面"""
+
+for itemValue in lists[:5]:  # lists切片0-4位置的值
+    print(itemValue)
+
+print("**************** Describe:在字典中存储列表 *******************")
+# 场景：描绘顾客点的披萨包含外皮类型和配料列表
+pizza = {
+    'crust': 'thick',
+    'toppings': ['mushrooms', 'extra cheese'],
+}
+print("you ordered a " + pizza['crust'] + " = crust pizza " +
+      "with the following topping:")
+for topping in pizza['toppings']:
+    print("\t" + topping)  # \t 代表tab的意思
+
+print("**************** Describe:字典中存储字典 *******************")
+# 场景：网站有多个用户，每个用户有独立用户名，可在字典中将用户名作为key，然后将用户信息存储在
+#      在一个字典中，字典关联key。
+users = {
+    'lucian': {
+        'name': 'qulusheng',
+        'age': 28,
+    },
+    'tony': {
+        'name': 'quzishun',
+        'age': 1.5
+    },
+}
+
+for userName, userInfo in users.items():
+    print("\nUserName: " + userName)
+    print("真名：" + userInfo['name'])
+    print("年龄：" + str(userInfo['age']))  # 注意age不是字符串，需要加上str()，不然错误，不执行
+"""* 注意：字典嵌套字典，结构尽量相同，python没要求，但相同处理更容易，key不同则for循环内部代码更复杂 *"""
+
