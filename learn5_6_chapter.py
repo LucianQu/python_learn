@@ -125,15 +125,15 @@ for name in favorite_languages:
 
 """
 * Learn End !
-* Time : 2017/11/4 1:10
-* Page : 56
-* Addr : 史各庄
+* Time    : 2017/11/4 1:10
+* Page    : 56
+* Comment : 凌晨了，明天还要加班，苦逼
 """
 """
 * Learn Start !
-* Time : 2017/11/4 0004 16:19
-* Page : 56
-* Addr : 北京奥特美克科技股份有限公司
+* Time    : 2017/11/4 0004 16:19
+* Page    : 56
+* Comment : 搞交城APP累了，歇会
 """
 
 """**************** 按照顺序遍历字典中的所有键 *******************"""
