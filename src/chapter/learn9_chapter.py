@@ -3,7 +3,7 @@
 # author  : QLS
 # time    : 2017/11/5 19:45
 """****************-*******************"""
-from class_dog import Dog, Cat
+from src.other.class_dog import Dog, Cat
 """
 开始语：
     面向对象编程是最有效的软件编写方法之一，在面向 对象编程中，你编写现实世界中的事物和情景的类，并基于这些类创建对象

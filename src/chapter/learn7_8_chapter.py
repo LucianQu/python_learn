@@ -3,9 +3,9 @@
 # author  : qulus
 # time    : 2017/11/4 0004 19:22
 """****************-*******************"""
-import module_author_info as ai
-from module_author_info import my_name as nm, my_age as ag
-from module_author_info import *
+from src.other import module_author_info as ai
+from src.other.module_author_info import my_name as nm, my_age as ag
+
 # 调用其他模块的方法
 #   导入整个模块，import module, 再通过module.method调用
 #       python打开这个module，并将module的所有函数复制到这个程序中，我们看不到，python幕后复制
