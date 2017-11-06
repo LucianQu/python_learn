@@ -4,6 +4,7 @@
 # time    : 2017/11/5 19:59
 """****************-*******************"""
 
+
 class Dog(object):  # 更加约定，首字母大写的，被指定为类,python2.7要加object
 
     def __init__(self, name, age):  # 初始化类属性 name 和 age，默认类初始化__init__(self)
@@ -47,7 +48,10 @@ class Cat(object):
         print(self.name)
 # 猫类
 
+
 """* 继承 *"""
+
+
 class WhiteDog(Dog):  # Dog 称为超类superclass，
     def __init__(self, name, age):
         super().__init__(name, age)  # 继承父类用（父类）， __init__初始化父类，用super.__init__
@@ -55,7 +59,7 @@ class WhiteDog(Dog):  # Dog 称为超类superclass，
 # 注意python2.7中，需要用super(WhiteDog, self).__init__(name, age)初始化父类
         self.sex = 'man'  # 给子类定义属性和方法
         self.similarCat = Cat("狗有点像猫", 100)  # 实例作属性时即创建了实例给这个属性
-        # 记得初始化 __init__() missing 2 required positional arguments: 'name' and 'age'
+# 记得初始化 __init__() missing 2 required positional arguments: 'name' and 'age'
 
     def run(self):
         print(self.name + "跑")
@@ -69,6 +73,7 @@ class WhiteDog(Dog):  # Dog 称为超类superclass，
 # print(my_dog.color)
 # my_dog.color = 'black'
 # print(my_dog.color)
+
 
 print("**************** Describe:注意java中方法不分顺序，但python分 *******************")
 

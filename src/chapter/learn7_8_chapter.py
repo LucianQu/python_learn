@@ -122,8 +122,11 @@ print(tee)
 print("1" + str(23))  # 打印函数字符串和int类型不能混用，必须用str转一样的
 print(23 + int(1))
 # 基于实参的顺序关联形参和实参，称为位置实参
+
+
 def test1(name, age):
     print(name + age)
+
 
 test1("qulusheng", "23")
 test1("23", "qulusheng")
@@ -132,9 +135,12 @@ test1(age="23", name="qulusheng")  # 当加入关键字实参时，调转顺序�
 
 print("**************** Describe:112 *******************")
 # 形参默认值
+
+
 def test3(name, sex="girl", age="28"):  # 形参可以指定默认值，但必须跟着非默认，即默认的在后面
     # 等号两边不用空格，当用关键字参数时
     print(name + "-" + sex + "-" + age)
+
 
 test3("qulusheng", "boy", "26")
 test3("qulusheng", "boy")
@@ -154,19 +160,27 @@ test3("qulusheng")
 """
 # 位置实参，关键字实参和默认值可混用
 # 函数返回值通过return来实现
+
+
 def test(value):
     return value
+
+
 value = test(12)
 print(value)
 
 # 让实参变成可选的
 # 目的：使用函数的人只需要在必要时才提供额外的信息，可使用默认值""让实参变成可选
+
+
 def getName(first_name, last_name, middle_name=''):
     if middle_name:
         full_name = first_name + last_name + middle_name
     else:
         full_name = first_name + last_name
     return full_name
+
+
 print(getName('qu', 'lu', 'sheng').title())  # 注意，当调用的函数无返回值时，打印None
 print(getName('qu', ' lu').title())  # 注意，如果两个字符串中间有空格，则每个单词首字母大写
 # 切片的结果是原来列表的副本
@@ -175,11 +189,15 @@ print(getName('qu', ' lu').title())  # 注意，如果两个字符串中间有�
 
 """* 传递任意数量的实参 *"""
 # python允许函数从调用语句中收集任意数量的实参,并以"(1,2)"的形式存储，可通过[x]调用或者for循环遍历
+
+
 def make_pizza(*topping):  # 注意topping前面的*号，让python创建一个空元组
     print(topping[0])
     print(topping)
     if len(topping) >= 2:
         print(topping[1])
+
+
 make_pizza('1')
 make_pizza('1', '2')
 make_pizza('1', '2', '3')
@@ -195,6 +213,8 @@ te178 = {
     'te2': 'te2',
     'te3': 'te3',
 }
+
+
 def build_profile(first, last, **user_info):  # 两个*让python创建一个名为user_info的空字典
     profile = {}  # 创建字典
     profile['first_name'] = first
@@ -202,7 +222,10 @@ def build_profile(first, last, **user_info):  # 两个*让python创建一个名�
     for key, value1 in user_info.items():
         profile[key] = value1
     return profile
+
 # user_profile = build_profile('qu', 'lusheng', te178)  # 错误，te178必须以关键字实参的形式传递进去
+
+
 user_profile = build_profile('qu', 'lusheng', age='28')  # 错误，te178必须以关键字实参的形式传递进去
 print(user_profile)
 
