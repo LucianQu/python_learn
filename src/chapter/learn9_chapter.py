@@ -79,17 +79,118 @@ print("**************** Describe:文件和异常学习 *******************")
 # 停止运行后丢失。
 
 # 流程：读取文件--》分析或者修改文件中的信息以及重新设置格式并写入文件，浏览器显示内容
-with open('pi_digits.txt') as files:  # file 自定义名字
-    # with在不需要访问文件后将其关闭，with是由python来决定的
-    # 也可以使用open（）和close（）组合,但在不恰当时间关闭文件时程序将出错
-    contents = files.read()  # read读取文件，作为字符串存在contents中，
-    # 读的内容末尾多了空行，原因：read（)到达末尾时返回一个空字符串，而显示这个空字符串就是空行，可使用rstrip()去除
-    print(contents)
-    print("**************** Describe:88 *******************")
-    print(contents.rstrip())
-    # [Errno 2] No such file or directory: 'pi_digits.txt' 文件放在file文件夹下，是否需要导入模块
-    # 文件放在同一个文件夹下，即chapter可以，原因：没有向python提供路径
+# with open('pi.txt') as files:  # file 自定义名字
+#     # with在不需要访问文件后将其关闭，with是由python来决定的
+#     # 也可以使用open（）和close（）组合,但在不恰当时间关闭文件时程序将出错
+#     contents = files.read()  # read读取文件，作为字符串存在contents中，
+#     # 读的内容末尾多了空行，原因：read（)到达末尾时返回一个空字符串，而显示这个空字符串就是空行，可使用rstrip()去除
+#     print(contents)
+#     print("**************** Describe:88 *******************")
+#     print(contents.rstrip())
+#     # [Errno 2] No such file or directory: 'pi.txt' 文件放在file文件夹下，是否需要导入模块
+#     # 文件放在同一个文件夹下，即chapter可以，原因：没有向python提供路径
 
-with open("E:\pythonproject\36\git_test\python_learn\file.wx_pi_digits.txt") as file_name:
-    content1 = file_name.read()
+"""
+python转义字符
+    \在行尾：续行符
+    \\：反斜杠
+    \'：单引号
+    \":双引号
+    \a:响铃
+    \b:退格（backspace）
+    \e:转义
+    \000:空
+    \n:换行
+    \v:纵向制表符
+    \t:横向制表符
+    \r:回车
+    \f:换页
+    """
+    # \oyy:八进制数，yy代表的字符，例如\o12代表换行
+    # \xyy:十进制数，yy代表的字符，例如\x0a代表换行和ascii对应
+    # \other:
+
+
+with open('K:\\project\\python_learn\\file\wx_pi_digits.txt') as file_object:
+#  表示路径要加双斜杠
+    content1 = file_object.read()
     print(content1)
+
+# with open('test\\pi.txt') as test1:  # 相对路径，在该py文件下一级
+#     contest = test1.read()  # 文件里面有汉字会提示gbk代码解析问题，需要转码
+#     print(contest)
+
+# with open('python_learn\\file\\wx_pi_digits.txt') as test1:  #在该文件上一级无法解析，要用绝对路径
+#     contest = test1.read()  #
+#     print(contest)
+
+print("**************** Describe:逐行读取 *******************")
+
+print("**************** Describe:132 *******************")
+# 创建一个包含文件各行内容的列表
+#   方法：with代码块内部将各行存储在一个列表，在with代码块外部使用
+# print(cache_file)
+
+# with open('pi.txt') as file_object:
+#     lines = file_object.readlines()  # 不用初始化，直接用
+#     # line = file_object.readline()
+# print(lines)
+# print(line)
+# python读取文本时，解读为字符串，如果你要使用数值，用int()或者float()转换
+# python对处理的数据量没有限制
+
+cache_file = []
+pi_string = ''
+with open('test\\pi.txt') as test_file:
+    lines = test_file.readlines()
+
+for line in lines:
+    pi_string += line.rstrip()
+# pi_string = ''
+with open('test\\pi.txt') as test_file:
+    lines = test_file.readlines()
+
+for line in lines:
+    pi_string += line.rstrip()
+
+# birthday = input("请输入你的生日，按照格式mmddyy：")
+# if birthday in pi_string:
+#     print("你的生日在圆周率一万位里面")
+#     print(pi_string.index(birthday))
+# else:
+#     print("你的生日不在圆周率一万位里面")
+
+print("替换学习")
+message = " I really like dogs"
+# replace 只是临时替换而已
+print(message.replace('dogs', '小孩'))
+print(message)
+
+file_name = "test_write.txt"
+str_len = 0
+num = 0
+last_num = len(pi_string)%80
+print("pi修改前字符串长度：" + str(len(pi_string)))
+with open(file_name, 'w') as file_object:  # 注意python只能将字符串写入文本，如果你要写int用str()
+    for line in range(int(len(pi_string)/80)):
+        file_object.write(pi_string[str_len: (str_len +80)] + "\n")
+        str_len +=80
+        num += 1
+    file_object.write(pi_string[str_len:last_num+str_len] + "\n")
+    # print(num)
+    file_object.closed
+
+
+pi_string1 = ''
+with open('test_write.txt') as file1:  # 刚开始file1和file——object重名，提示文件已经关闭，以后不能重名
+    lines1 = file1.readlines()
+
+for line in lines1:
+    pi_string1 += line.rstrip()
+print("pi重新写的文件字符串长度：" + str(len(pi_string)))
+"""
+* Learn End ! 
+* Time    : 2017/11/7 0:31
+* Page    : 95
+* Comment : 泡个脚，睡觉
+"""
