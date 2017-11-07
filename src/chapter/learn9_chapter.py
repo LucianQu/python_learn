@@ -111,10 +111,10 @@ python转义字符
     # \other:
 
 
-with open('K:\\project\\python_learn\\file\wx_pi_digits.txt') as file_object:
-#  表示路径要加双斜杠
-    content1 = file_object.read()
-    print(content1)
+# with open('K:\\project\\python_learn\\file\wx_pi_digits.txt') as file_object:
+# #  表示路径要加双斜杠
+#     content1 = file_object.read()
+#     print(content1)
 
 # with open('test\\pi.txt') as test1:  # 相对路径，在该py文件下一级
 #     contest = test1.read()  # 文件里面有汉字会提示gbk代码解析问题，需要转码
@@ -187,10 +187,75 @@ with open('test_write.txt') as file1:  # 刚开始file1和file——object重名
 
 for line in lines1:
     pi_string1 += line.rstrip()
-print("pi重新写的文件字符串长度：" + str(len(pi_string)))
+print("pi重新写的文件字符串长度：" + str(len(pi_string1)))
 """
 * Learn End ! 
 * Time    : 2017/11/7 0:31
 * Page    : 95
 * Comment : 泡个脚，睡觉
+"""
+
+"""
+* Learn Start !
+* Time : 2017/11/7 0007 19:35
+* Page : 95
+* Comment : 
+"""
+"""
+文件读写操作
+    1.'w' 以写入模式打开这个文件 写入模式是重写整个文件
+    2.'r' 以读取模式打开文件 
+    3.'a' 以附加模式打开   附加模式可以在原来基础之上附加值
+    4.'r+' 以读取和写入模式打开
+    如果省略则默认以只读模式打开文件
+"""
+print("**************** Describe:异常处理 *******************")
+# python使用被称为异常的特殊对象来管理程序执行期间发生的错误，每当发生让python不知所措的错误时
+# 它都会创建一个异常对象，如果你处理了异常，程序继续运行，反之则停止
+
+try:
+    print("qulusheng" + 2)
+except:
+    print("类型错误")
+else:
+    print("正确")
+
+try:
+    print("qulusheng" + str(2))
+except:
+    print("类型错误")
+else:
+    print("正确")
+
+# TypeError: must be str, not int
+# TypeError是一个异常对象，python无法按照你要求运行时就会创建异常对象
+
+
+
+"""
+计算一本书单词量的函数
+"""
+def count_words(file_name):
+    try:
+        with open(file_name_alice) as f_obj:
+            f_obj_contents = f_obj.read()
+    except:
+        msg = " Sorry, the file" + file_name_alice + "does not exist !"
+        print(msg)
+    else:
+        words = f_obj_contents.split()
+        num_words = len(words)
+        print("The file" + file_name_alice + "has about " + str(
+            num_words) + " words .")
+
+
+file_name_alice = "test\\Alice in Wonderland.txt"
+count_words(file_name_alice)  # 调用函数，计算单词数
+
+# 异常时如果不处理可以用pass
+"""
+* Learn End !
+* Time : 2017/11/7 0007 20:21
+* Page : 100
+* Comment : go home!
 """
