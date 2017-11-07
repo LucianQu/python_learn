@@ -116,7 +116,7 @@ python转义字符
 #     content1 = file_object.read()
 #     print(content1)
 
-# with open('test\\pi.txt') as test1:  # 相对路径，在该py文件下一级
+# with open('files\\pi.txt') as test1:  # 相对路径，在该py文件下一级
 #     contest = test1.read()  # 文件里面有汉字会提示gbk代码解析问题，需要转码
 #     print(contest)
 
@@ -141,13 +141,13 @@ print("**************** Describe:132 *******************")
 
 cache_file = []
 pi_string = ''
-with open('test\\pi.txt') as test_file:
+with open('files\\pi.txt') as test_file:
     lines = test_file.readlines()
 
 for line in lines:
     pi_string += line.rstrip()
 # pi_string = ''
-with open('test\\pi.txt') as test_file:
+with open('files\\pi.txt') as test_file:
     lines = test_file.readlines()
 
 for line in lines:
@@ -166,7 +166,7 @@ message = " I really like dogs"
 print(message.replace('dogs', '小孩'))
 print(message)
 
-file_name = "test_write.txt"
+file_name = "files\\test_write.txt"
 str_len = 0
 num = 0
 last_num = len(pi_string)%80
@@ -182,7 +182,7 @@ with open(file_name, 'w') as file_object:  # 注意python只能将字符串写�
 
 
 pi_string1 = ''
-with open('test_write.txt') as file1:  # 刚开始file1和file——object重名，提示文件已经关闭，以后不能重名
+with open('files\\test_write.txt') as file1:  # 刚开始file1和file——object重名，提示文件已经关闭，以后不能重名
     lines1 = file1.readlines()
 
 for line in lines1:
@@ -249,7 +249,7 @@ def count_words(file_name):
             num_words) + " words .")
 
 
-file_name_alice = "test\\Alice in Wonderland.txt"
+file_name_alice = "files\\Alice in Wonderland.txt"
 count_words(file_name_alice)  # 调用函数，计算单词数
 
 # 异常时如果不处理可以用pass
@@ -259,3 +259,4 @@ count_words(file_name_alice)  # 调用函数，计算单词数
 * Page : 100
 * Comment : go home!
 """
+

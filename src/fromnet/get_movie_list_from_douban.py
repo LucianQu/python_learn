@@ -15,6 +15,12 @@ def get20Movie(url):
         # print(each.get('title')+each.get('rate'))
     return movieNameAndScores
 
+file_lines = []
+def save(file_lines):
+    with open("movice.txt", 'w') as movice_content:
+        for content in file_lines:
+            movice_content.write( content + "      男主角：Qu Lu Sheng" + "\n")
+        movice_content.closed
 
 j = 0
 i = 0  # 不能在def前面定义本文件的全局变量，模块中用global
@@ -26,7 +32,9 @@ while 1:
             j))
     for each in movieNameAndScores:
         print(str(i) + each)
+        file_lines.append(each)
         i += 1
         if i >= 286:
+            save(file_lines)
             break
     j += 20
