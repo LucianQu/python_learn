@@ -10,6 +10,7 @@ from urllib import request
 from datetime import datetime
 from http.client import IncompleteRead
 from socket import timeout as socket_timeout
+import html5lib
 
 from bs4 import BeautifulSoup
 
@@ -48,7 +49,7 @@ def _get_query_string(data):
     则返回的值为：
     ?offset=20&format=json&keyword=%E8%A1%97%E6%8B%8D&autoload=true&count=20&_=1480675595492"
     """
-    print(parse.urlencode(data))
+    # print(parse.urlencode(data))
     return parse.urlencode(data)
 
 
@@ -66,11 +67,26 @@ def get_article_urls(req, timeout=10):
 
 def get_photo_urls(req, timeout=10):
     with request.urlopen(req, timeout=timeout) as res:
+        # print(res)
         # 这里 decode 默认为 utf-8 编码，但返回的内容中含有部分非 utf-8 的内容，会导致解码失败
         # 所以我们使用 ignore 忽略这部分内容
-        soup = BeautifulSoup(res.read().decode(errors='ignore'), 'html.parser')
+        # print("***********************************************************")
+        soup = BeautifulSoup(res.read().decode(errors='ignore'), 'html5lib')
+        # print(soup)
         # article_main = soup.find('div', id='article-main')
-        article_main = soup.find('div', id='article-box')
+
+        title = soup.select('title')[0].get_text
+        print(title)
+        images_pattern = re.compile(r'gallery: (.*?),\n')
+        result = re.search(images_pattern, res.read().decode(errors='ignore'))
+        if result:
+            # 将json数据转换为python的字典对象
+            data = json.loads(result.group(1))
+            if data and 'sub_images' in data.keys():
+                print("yes")
+                return
+
+        article_main = soup.find(name="article-box")
 
         if not article_main:
             print("无法定位到文章主体...")
@@ -104,7 +120,7 @@ def save_photo(photo_url, save_dir, timeout=10):
 if __name__ == '__main__':
     ongoing = True
     offset = 0  # 请求的偏移量，每次累加 20
-    root_dir = _create_dir('E:\jiepai')  # 保存图片的根目录
+    root_dir = _create_dir('D:\jiepai')  # 保存图片的根目录
     request_headers = {
         'Referer': 'http://www.toutiao.com/search/?keyword=%E8%A1%97%E6%8B%8D',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
@@ -119,7 +135,7 @@ if __name__ == '__main__':
             'format': 'json',
             'keyword': '街拍',
             'autoload': 'true',
-            'count': 20,  # 每次返回 20 篇文章
+            'count': 1,  # 每次返回 20 篇文章
             '_': timestamp
         }
         query_url = 'http://www.toutiao.com/search_content/' + '?' + _get_query_string(query_data)
@@ -167,4 +183,5 @@ if __name__ == '__main__':
                 continue
 
         # 一次请求处理完毕，将偏移量加 20，继续获取新的 20 篇文章。
-        offset += 20
+        offset += 1
+
