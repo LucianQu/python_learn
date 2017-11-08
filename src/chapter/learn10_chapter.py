@@ -51,6 +51,9 @@ class NameTestCase(unittest.TestCase):
 
 unittest.main()  # 运行测试  Ran 1 test in 0.000s  OK  1代表数量，1个测试
 
+# 测试类setup只创建一次，python先运行它，后面的测试用例可以用里面创建的对象
+
+
 """
 断言方法介绍：
     1.assertEqual(a, b) 核实 a == b

@@ -14,6 +14,7 @@ from collections import OrderedDict  # 标准库练习--键值对
     一些类来扩展既有类的功能，让相似的类能够高效地共享代码，你将把自己编写的类存储在模块中，并在自己的程序导入其他人
     写的类。
 """
+
 my_dog = Dog('hei', 1)  # 当我导入类创建实例调用时，那个module的类的实例的方法也执行了
 
 my_cat = Cat('bai', 2)
@@ -55,6 +56,7 @@ from electric_car import ElectriCar
 """
 
 print("**************** Describe:Python标准库 *******************")
+print(__name__)
 # 标准库中的任何函数和类都能使用，只需要import导入
 # 模块collections中的一个类 --OrderedDict
 # 字典让你能够将信息关联起来，但他们不记录你添加键值对的顺序，要创建字典记录键值对顺序，可使用

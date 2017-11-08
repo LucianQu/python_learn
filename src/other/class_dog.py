@@ -76,24 +76,25 @@ class WhiteDog(Dog):  # Dog 称为超类superclass，
 
 
 print("**************** Describe:注意java中方法不分顺序，但python分 *******************")
+if __name__ == "__main__":
+    my_white_dog = WhiteDog("小黄", 12)
+    my_white_dog.sit()
+    my_white_dog.roll_over()
+    my_white_dog.run()
+    print(my_white_dog.sex)
+    my_white_dog.sit()
 
-my_white_dog = WhiteDog("小黄", 12)
-my_white_dog.sit()
-my_white_dog.roll_over()
-my_white_dog.run()
-print(my_white_dog.sex)
-my_white_dog.sit()
+    print("**************** Describe:实例作属性 *******************")
+    my_white_dog.similarCat.get_name()
+    print("活成精了，年龄都" + str(my_white_dog.similarCat.age) + "岁了")  # age是int记得用str
 
-print("**************** Describe:实例作属性 *******************")
-my_white_dog.similarCat.get_name()
-print("活成精了，年龄都" + str(my_white_dog.similarCat.age) + "岁了")  # age是int记得用str
-
-my_cat = Cat("xiaohei", 3)
-print(my_cat.name)  # self.x 类属性，用实例.属性调用
-my_cat.get_name()  # 类里面的方法用实例.方法名调用
-print("**************** Describe:83 *******************")
-"""
-将一个独立的类的实例用作另一个类的属性，即这个属性包含了很多特性，可单独拿出来
-类当属性时用 self.属性名 = 独立类 这个属性代表了一个类，
-调用时 实例.属性名.具体的属性或者方法即（实例.属性名） = 另一个类的实例
-"""
+    my_cat = Cat("xiaohei", 3)
+    print(my_cat.name)  # self.x 类属性，用实例.属性调用
+    my_cat.get_name()  # 类里面的方法用实例.方法名调用
+    print("**************** Describe:83 *******************")
+    """
+    将一个独立的类的实例用作另一个类的属性，即这个属性包含了很多特性，可单独拿出来
+    类当属性时用 self.属性名 = 独立类 这个属性代表了一个类，
+    调用时 实例.属性名.具体的属性或者方法即（实例.属性名） = 另一个类的实例
+    """
+    print(__name__)  # src.other.class_dog

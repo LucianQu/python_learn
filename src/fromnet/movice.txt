@@ -1,286 +1,277 @@
- 电影名：小丑回魂 评分7.5      男主角：Qu Lu Sheng
- 电影名：忌日快乐 评分7.2      男主角：Qu Lu Sheng
- 电影名：起跑线 评分8.2      男主角：Qu Lu Sheng
- 电影名：我的上高 评分8.4      男主角：Qu Lu Sheng
- 电影名：极寒之城 评分7.2      男主角：Qu Lu Sheng
- 电影名：春宵苦短，少女前进吧！ 评分8.9      男主角：Qu Lu Sheng
- 电影名：杀破狼·贪狼 评分7.2      男主角：Qu Lu Sheng
- 电影名：我能说 评分8.7      男主角：Qu Lu Sheng
- 电影名：美国行动 评分7.5      男主角：Qu Lu Sheng
- 电影名：猩球崛起3：终极之战 评分6.9      男主角：Qu Lu Sheng
- 电影名：大护法 评分7.8      男主角：Qu Lu Sheng
- 电影名：猎凶风河谷 评分7.7      男主角：Qu Lu Sheng
- 电影名：小戏骨：红楼梦之刘姥姥进大观园 评分9.2      男主角：Qu Lu Sheng
- 电影名：赛车总动员3：极速挑战 评分7.1      男主角：Qu Lu Sheng
- 电影名：王牌保镖 评分7.3      男主角：Qu Lu Sheng
- 电影名：杀人者的记忆法 评分7.1      男主角：Qu Lu Sheng
- 电影名：极盗车神 评分7.1      男主角：Qu Lu Sheng
- 电影名：战狼2 评分7.3      男主角：Qu Lu Sheng
- 电影名：蜘蛛侠：英雄归来 评分7.4      男主角：Qu Lu Sheng
- 电影名：报告老师！怪怪怪怪物！ 评分6.5      男主角：Qu Lu Sheng
- 电影名：辣手保姆 评分6.7      男主角：Qu Lu Sheng
- 电影名：侠盗联盟 评分5.4      男主角：Qu Lu Sheng
- 电影名：生存家族 评分8.1      男主角：Qu Lu Sheng
- 电影名：鬼魅浮生 评分7.5      男主角：Qu Lu Sheng
- 电影名：双面情人 评分6.7      男主角：Qu Lu Sheng
- 电影名：十万个冷笑话2 评分7.4      男主角：Qu Lu Sheng
- 电影名：心理罪 评分5.1      男主角：Qu Lu Sheng
- 电影名：神偷奶爸3 评分6.9      男主角：Qu Lu Sheng
- 电影名：银魂 评分7.3      男主角：Qu Lu Sheng
- 电影名：闪光少女 评分7.4      男主角：Qu Lu Sheng
- 电影名：军舰岛 评分7.7      男主角：Qu Lu Sheng
- 电影名：名侦探柯南：唐红的恋歌 评分6.4      男主角：Qu Lu Sheng
- 电影名：摔跤吧！爸爸 评分9.1      男主角：Qu Lu Sheng
- 电影名：破·局 评分6.3      男主角：Qu Lu Sheng
- 电影名：明月几时有 评分7.0      男主角：Qu Lu Sheng
- 电影名：杰罗德游戏 评分6.2      男主角：Qu Lu Sheng
- 电影名：山2 评分6.9      男主角：Qu Lu Sheng
- 电影名：悟空传 评分5.1      男主角：Qu Lu Sheng
- 电影名：加勒比海盗5：死无对证 评分7.2      男主角：Qu Lu Sheng
- 电影名：牡丹花下 评分5.9      男主角：Qu Lu Sheng
- 电影名：安娜贝尔2：诞生 评分6.4      男主角：Qu Lu Sheng
- 电影名：目击者之追凶 评分8.1      男主角：Qu Lu Sheng
- 电影名：变形金刚5：最后的骑士 评分4.8      男主角：Qu Lu Sheng
- 电影名：无爱可诉 评分7.1      男主角：Qu Lu Sheng
- 电影名：宣告黎明的露之歌 评分8.0      男主角：Qu Lu Sheng
- 电影名：绣春刀II：修罗战场 评分7.4      男主角：Qu Lu Sheng
- 电影名：三生三世十里桃花 评分4.0      男主角：Qu Lu Sheng
- 电影名：黑暗塔 评分5.0      男主角：Qu Lu Sheng
- 电影名：记忆大师 评分7.2      男主角：Qu Lu Sheng
- 电影名：神奇女侠 评分7.1      男主角：Qu Lu Sheng
- 电影名：猎杀星期一 评分6.8      男主角：Qu Lu Sheng
- 电影名：刺杀盖世太保 评分6.5      男主角：Qu Lu Sheng
- 电影名：22年后的自白：我是杀人犯 评分7.3      男主角：Qu Lu Sheng
- 电影名：玻璃城堡 评分7.3      男主角：Qu Lu Sheng
- 电影名：星际特工：千星之城 评分7.1      男主角：Qu Lu Sheng
- 电影名：天才少女 评分8.1      男主角：Qu Lu Sheng
- 电影名：大病 评分7.6      男主角：Qu Lu Sheng
- 电影名：银河护卫队2 评分8.1      男主角：Qu Lu Sheng
- 电影名：昼行闪耀的流星 评分6.4      男主角：Qu Lu Sheng
- 电影名：虐杀器官 评分7.3      男主角：Qu Lu Sheng
- 电影名：表情奇幻冒险 评分5.1      男主角：Qu Lu Sheng
- 电影名：私人会所 评分3.9      男主角：Qu Lu Sheng
- 电影名：蚯蚓 评分6.8      男主角：Qu Lu Sheng
- 电影名：人皮脸 评分5.4      男主角：Qu Lu Sheng
- 电影名：速度与激情8 评分7.1      男主角：Qu Lu Sheng
- 电影名：丛林 评分6.7      男主角：Qu Lu Sheng
- 电影名：乐高幻影忍者大电影 评分6.2      男主角：Qu Lu Sheng
- 电影名：纽约唯一活着的男孩 评分6.1      男主角：Qu Lu Sheng
- 电影名：金刚狼3：殊死一战 评分8.3      男主角：Qu Lu Sheng
- 电影名：三个老枪手 评分7.6      男主角：Qu Lu Sheng
- 电影名：攻壳机动队 评分6.5      男主角：Qu Lu Sheng
- 电影名：青禾男高 评分4.0      男主角：Qu Lu Sheng
- 电影名：神奇动物在哪里 评分7.8      男主角：Qu Lu Sheng
- 电影名：嗨翻姐妹行 评分6.3      男主角：Qu Lu Sheng
- 电影名：新木乃伊 评分4.7      男主角：Qu Lu Sheng
- 电影名：杀人优越权 评分6.7      男主角：Qu Lu Sheng
- 电影名：生化危机：终章 评分6.6      男主角：Qu Lu Sheng
- 电影名：血战钢锯岭 评分8.7      男主角：Qu Lu Sheng
- 电影名：逃出绝命镇 评分7.5      男主角：Qu Lu Sheng
- 电影名：异形：契约 评分7.3      男主角：Qu Lu Sheng
- 电影名：酒吧 评分6.3      男主角：Qu Lu Sheng
- 电影名：美女与野兽 评分7.2      男主角：Qu Lu Sheng
- 电影名：宝贝老板 评分7.3      男主角：Qu Lu Sheng
- 电影名：斯隆女士 评分8.7      男主角：Qu Lu Sheng
- 电影名：他们先杀了我父亲：一个柬埔寨女儿的回忆录 评分7.5      男主角：Qu Lu Sheng
- 电影名：巴霍巴利王(下)：终结 评分7.1      男主角：Qu Lu Sheng
- 电影名：黑白迷宫 评分4.6      男主角：Qu Lu Sheng
- 电影名：一条狗的使命 评分7.7      男主角：Qu Lu Sheng
- 电影名：嫌疑人X的献身 评分6.4      男主角：Qu Lu Sheng
- 电影名：99号牢房内的博弈 评分6.5      男主角：Qu Lu Sheng
- 电影名：虚拟实惊 评分6.5      男主角：Qu Lu Sheng
- 电影名：春娇救志明 评分7.2      男主角：Qu Lu Sheng
- 电影名：迈耶罗维茨的故事 评分6.7      男主角：Qu Lu Sheng
- 电影名：3月的狮子 后篇 评分7.4      男主角：Qu Lu Sheng
- 电影名：1922 评分5.9      男主角：Qu Lu Sheng
- 电影名：喜欢你 评分6.9      男主角：Qu Lu Sheng
- 电影名：在这世界的角落 评分7.6      男主角：Qu Lu Sheng
- 电影名：与君相恋100次 评分6.3      男主角：Qu Lu Sheng
- 电影名：罗曼蒂克消亡史 评分7.7      男主角：Qu Lu Sheng
- 电影名：原谅他77次 评分6.6      男主角：Qu Lu Sheng
- 电影名：“吃吃”的爱 评分5.5      男主角：Qu Lu Sheng
- 电影名：刺客信条 评分5.4      男主角：Qu Lu Sheng
- 电影名：独自在夜晚的海边 评分7.1      男主角：Qu Lu Sheng
- 电影名：猜火车2 评分8.0      男主角：Qu Lu Sheng
- 电影名：青年警察 评分7.2      男主角：Qu Lu Sheng
- 电影名：功夫瑜伽 评分5.0      男主角：Qu Lu Sheng
- 电影名：亚瑟王：斗兽争霸 评分7.1      男主角：Qu Lu Sheng
- 电影名：金刚：骷髅岛 评分6.6      男主角：Qu Lu Sheng
- 电影名：3月的狮子 前篇 评分7.4      男主角：Qu Lu Sheng
- 电影名：海带 评分7.2      男主角：Qu Lu Sheng
- 电影名：失眠 评分6.0      男主角：Qu Lu Sheng
- 电影名：鲛珠传 评分4.4      男主角：Qu Lu Sheng
- 电影名：绝世高手 评分6.1      男主角：Qu Lu Sheng
- 电影名：分裂 评分7.2      男主角：Qu Lu Sheng
- 电影名：长城 评分4.9      男主角：Qu Lu Sheng
- 电影名：恐袭波士顿 评分8.0      男主角：Qu Lu Sheng
- 电影名：超速驾驶 评分5.2      男主角：Qu Lu Sheng
- 电影名：大创业家 评分7.3      男主角：Qu Lu Sheng
- 电影名：蜜桃女孩 评分4.5      男主角：Qu Lu Sheng
- 电影名：太空旅客 评分6.9      男主角：Qu Lu Sheng
- 电影名：雌猫们 评分5.7      男主角：Qu Lu Sheng
- 电影名：五十度黑 评分4.9      男主角：Qu Lu Sheng
- 电影名：一锤定音 评分7.4      男主角：Qu Lu Sheng
- 电影名：之后 评分7.5      男主角：Qu Lu Sheng
- 电影名：反转人生 评分5.2      男主角：Qu Lu Sheng
- 电影名：乐高蝙蝠侠大电影 评分8.0      男主角：Qu Lu Sheng
- 电影名：极限特工3：终极回归 评分5.6      男主角：Qu Lu Sheng
- 电影名：仓皇一夜 评分5.5      男主角：Qu Lu Sheng
- 电影名：疾速特攻 评分7.3      男主角：Qu Lu Sheng
- 电影名：沉默 评分7.6      男主角：Qu Lu Sheng
- 电影名：乘风破浪 评分6.8      男主角：Qu Lu Sheng
- 电影名：秘果 评分4.8      男主角：Qu Lu Sheng
- 电影名：亨利之书 评分6.6      男主角：Qu Lu Sheng
- 电影名：海洋奇缘 评分7.6      男主角：Qu Lu Sheng
- 电影名：疯狂修道院 评分6.0      男主角：Qu Lu Sheng
- 电影名：狙击精英：巅峰对决 评分5.4      男主角：Qu Lu Sheng
- 电影名：明日的我与昨日的你约会 评分7.5      男主角：Qu Lu Sheng
- 电影名：傲娇与偏见 评分5.0      男主角：Qu Lu Sheng
- 电影名：真实 评分4.9      男主角：Qu Lu Sheng
- 电影名：被掩盖的时间 评分7.5      男主角：Qu Lu Sheng
- 电影名：猫咪后院之家 评分6.4      男主角：Qu Lu Sheng
- 电影名：拆弹专家 评分6.4      男主角：Qu Lu Sheng
- 电影名：父子雄兵 评分4.7      男主角：Qu Lu Sheng
- 电影名：缉枪 评分6.3      男主角：Qu Lu Sheng
- 电影名：逆时营救 评分4.8      男主角：Qu Lu Sheng
- 电影名：情圣 评分6.1      男主角：Qu Lu Sheng
- 电影名：西游伏妖篇 评分5.6      男主角：Qu Lu Sheng
- 电影名：摆渡人 评分4.0      男主角：Qu Lu Sheng
- 电影名：异星觉醒 评分6.5      男主角：Qu Lu Sheng
- 电影名：间谍同盟 评分7.0      男主角：Qu Lu Sheng
- 电影名：小戏骨：放开那三国 评分8.2      男主角：Qu Lu Sheng
- 电影名：时间中的孩子 评分6.7      男主角：Qu Lu Sheng
- 电影名：救命解药 评分6.9      男主角：Qu Lu Sheng
- 电影名：被操纵的城市 评分7.3      男主角：Qu Lu Sheng
- 电影名：毒。诫 评分4.8      男主角：Qu Lu Sheng
- 电影名：健忘村 评分6.7      男主角：Qu Lu Sheng
- 电影名：黑子的篮球：最后的游戏 评分6.8      男主角：Qu Lu Sheng
- 电影名：麻烦家族 评分4.6      男主角：Qu Lu Sheng
- 电影名：忠爱无言 评分7.2      男主角：Qu Lu Sheng
- 电影名：不汗党 评分6.9      男主角：Qu Lu Sheng
- 电影名：圆圈 评分5.1      男主角：Qu Lu Sheng
- 电影名：玉子 评分6.6      男主角：Qu Lu Sheng
- 电影名：肌肤 评分7.6      男主角：Qu Lu Sheng
- 电影名：歌声不绝 评分5.5      男主角：Qu Lu Sheng
- 电影名：单身骑士 评分6.8      男主角：Qu Lu Sheng
- 电影名：黑执事：大西洋之书 评分8.2      男主角：Qu Lu Sheng
- 电影名：西谎极落之太爆太子太空舱 评分6.2      男主角：Qu Lu Sheng
- 电影名：浮生梦 评分6.1      男主角：Qu Lu Sheng
- 电影名：哆啦A梦：大雄的南极冰冰凉大冒险 评分6.6      男主角：Qu Lu Sheng
- 电影名：流浪猫鲍勃 评分8.1      男主角：Qu Lu Sheng
- 电影名：京城81号2 评分3.9      男主角：Qu Lu Sheng
- 电影名：王者 评分7.4      男主角：Qu Lu Sheng
- 电影名：一天 评分7.1      男主角：Qu Lu Sheng
- 电影名：那些爱人 评分6.8      男主角：Qu Lu Sheng
- 电影名：荡寇风云 评分6.1      男主角：Qu Lu Sheng
- 电影名：溺水小刀 评分7.2      男主角：Qu Lu Sheng
- 电影名：潘多拉 评分7.4      男主角：Qu Lu Sheng
- 电影名：蜡笔小新：宇宙人来袭 评分6.9      男主角：Qu Lu Sheng
- 电影名：救僵清道夫 评分5.3      男主角：Qu Lu Sheng
- 电影名：非凡任务 评分6.4      男主角：Qu Lu Sheng
- 电影名：喵星人 评分4.5      男主角：Qu Lu Sheng
- 电影名：28岁未成年 评分5.7      男主角：Qu Lu Sheng
- 电影名：李雷和韩梅梅 评分3.4      男主角：Qu Lu Sheng
- 电影名：我是马布里 评分6.3      男主角：Qu Lu Sheng
- 电影名：妄想学生会 剧场版 评分8.1      男主角：Qu Lu Sheng
- 电影名：星游记之风暴法米拉 评分7.6      男主角：Qu Lu Sheng
- 电影名：生死之墙 评分6.9      男主角：Qu Lu Sheng
- 电影名：星球大战外传：侠盗一号 评分7.3      男主角：Qu Lu Sheng
- 电影名：守护者：世纪战元 评分3.9      男主角：Qu Lu Sheng
- 电影名：二次初恋 评分4.3      男主角：Qu Lu Sheng
- 电影名：绑架者 评分4.9      男主角：Qu Lu Sheng
- 电影名：重返17岁 评分6.6      男主角：Qu Lu Sheng
- 电影名：海滩游侠 评分5.6      男主角：Qu Lu Sheng
- 电影名：死亡笔记 评分4.0      男主角：Qu Lu Sheng
- 电影名：美好的意外 评分5.5      男主角：Qu Lu Sheng
- 电影名：今天的吉良同学 评分6.2      男主角：Qu Lu Sheng
- 电影名：奇迹，那天如此重要 评分7.5      男主角：Qu Lu Sheng
- 电影名：阿唐奇遇 评分7.1      男主角：Qu Lu Sheng
- 电影名：再审 评分6.6      男主角：Qu Lu Sheng
- 电影名：欺诈圣手 评分6.5      男主角：Qu Lu Sheng
- 电影名：夜色撩人 评分4.6      男主角：Qu Lu Sheng
- 电影名：忽然七日 评分6.4      男主角：Qu Lu Sheng
- 电影名：特别市民 评分6.4      男主角：Qu Lu Sheng
- 电影名：你好，疯子！ 评分6.8      男主角：Qu Lu Sheng
- 电影名：海滩的一天 评分8.3      男主角：Qu Lu Sheng
- 电影名：好时光 评分7.6      男主角：Qu Lu Sheng
- 电影名：藩篱 评分6.9      男主角：Qu Lu Sheng
- 电影名：了不起的菲丽西 评分6.5      男主角：Qu Lu Sheng
- 电影名：我的叔叔 评分7.0      男主角：Qu Lu Sheng
- 电影名：P与JK 评分5.1      男主角：Qu Lu Sheng
- 电影名：大耳朵图图之美食狂想曲 评分5.6      男主角：Qu Lu Sheng
- 电影名：有完没完 评分5.4      男主角：Qu Lu Sheng
- 电影名：金矿 评分7.7      男主角：Qu Lu Sheng
- 电影名：黑夜造访 评分5.8      男主角：Qu Lu Sheng
- 电影名：数码宝贝大冒险tri. 第5章：共生 评分5.1      男主角：Qu Lu Sheng
- 电影名：白百合 评分5.0      男主角：Qu Lu Sheng
- 电影名：死于独特 评分7.8      男主角：Qu Lu Sheng
- 电影名：恶女 评分6.2      男主角：Qu Lu Sheng
- 电影名：超级快递 评分4.5      男主角：Qu Lu Sheng
- 电影名：绝命时钟2:22 评分6.0      男主角：Qu Lu Sheng
- 电影名：附属美丽 评分6.6      男主角：Qu Lu Sheng
- 电影名：幽冥 评分7.1      男主角：Qu Lu Sheng
- 电影名：许愿 评分5.7      男主角：Qu Lu Sheng
- 电影名：布希维克 评分5.9      男主角：Qu Lu Sheng
- 电影名：骨瘦如柴 评分6.7      男主角：Qu Lu Sheng
- 电影名：绝对控制 评分5.2      男主角：Qu Lu Sheng
- 电影名：铁道飞虎 评分5.2      男主角：Qu Lu Sheng
- 电影名：暗黑女子 评分6.2      男主角：Qu Lu Sheng
- 电影名：超凡战队 评分4.6      男主角：Qu Lu Sheng
- 电影名：小情书 评分6.3      男主角：Qu Lu Sheng
- 电影名：我的英格兰 评分6.9      男主角：Qu Lu Sheng
- 电影名：决战食神 评分4.7      男主角：Qu Lu Sheng
- 电影名：共助 评分6.7      男主角：Qu Lu Sheng
- 电影名：夜色人生 评分6.3      男主角：Qu Lu Sheng
- 电影名：蓝精灵：寻找神秘村 评分6.3      男主角：Qu Lu Sheng
- 电影名：BLAME! 评分7.6      男主角：Qu Lu Sheng
- 电影名：末日重启 评分4.1      男主角：Qu Lu Sheng
- 电影名：梅根·利维 评分7.1      男主角：Qu Lu Sheng
- 电影名：神秘家族 评分4.9      男主角：Qu Lu Sheng
- 电影名：黑夜传说5：血战 评分5.7      男主角：Qu Lu Sheng
- 电影名：鬼娃回魂7 评分4.6      男主角：Qu Lu Sheng
- 电影名：一周的朋友 评分6.3      男主角：Qu Lu Sheng
- 电影名：不干了，我开除了黑心公司 评分6.4      男主角：Qu Lu Sheng
- 电影名：无处为家 评分7.1      男主角：Qu Lu Sheng
- 电影名：动物园长的夫人 评分6.9      男主角：Qu Lu Sheng
- 电影名：哥 评分7.3      男主角：Qu Lu Sheng
- 电影名：哀乐女子天团 评分6.9      男主角：Qu Lu Sheng
- 电影名：为什么是他？ 评分6.4      男主角：Qu Lu Sheng
- 电影名：惊天解密 评分5.8      男主角：Qu Lu Sheng
- 电影名：解冻 评分6.4      男主角：Qu Lu Sheng
- 电影名：怪兽卡车 评分6.0      男主角：Qu Lu Sheng
- 电影名：捉迷藏 评分5.4      男主角：Qu Lu Sheng
- 电影名：夏天19岁的肖像 评分4.9      男主角：Qu Lu Sheng
- 电影名：那年夏天你去了哪里 评分4.7      男主角：Qu Lu Sheng
- 电影名：星河战队：火星叛国者 评分5.8      男主角：Qu Lu Sheng
- 电影名：指甲刀人魔 评分4.4      男主角：Qu Lu Sheng
- 电影名：疯狂之家 评分5.3      男主角：Qu Lu Sheng
- 电影名：伤物语3：冷血篇 评分8.3      男主角：Qu Lu Sheng
- 电影名：梅格雷的十字路口之夜 评分7.4      男主角：Qu Lu Sheng
- 电影名：杀死冈瑟 评分5.6      男主角：Qu Lu Sheng
- 电影名：熊出没·奇幻空间 评分6.4      男主角：Qu Lu Sheng
- 电影名：突然20岁 评分7.0      男主角：Qu Lu Sheng
- 电影名：血狼犬 评分5.7      男主角：Qu Lu Sheng
- 电影名：东北往事之破马张飞 评分3.6      男主角：Qu Lu Sheng
- 电影名：金融决战 评分6.5      男主角：Qu Lu Sheng
- 电影名：生化危机：复仇 评分6.4      男主角：Qu Lu Sheng
- 电影名：叛狱无间 评分6.5      男主角：Qu Lu Sheng
- 电影名：一条龙 评分6.6      男主角：Qu Lu Sheng
- 电影名：少年 评分5.8      男主角：Qu Lu Sheng
- 电影名：代立军 评分6.3      男主角：Qu Lu Sheng
- 电影名：六人晚餐 评分5.5      男主角：Qu Lu Sheng
- 电影名：隐于书后 评分7.8      男主角：Qu Lu Sheng
- 电影名：柏林综合症 评分5.9      男主角：Qu Lu Sheng
- 电影名：六天 评分6.2      男主角：Qu Lu Sheng
- 电影名：爸爸是女儿 评分6.7      男主角：Qu Lu Sheng
- 电影名：潘菲洛夫28勇士 评分7.1      男主角：Qu Lu Sheng
- 电影名：时间上的家 评分6.4      男主角：Qu Lu Sheng
- 电影名：内裤队长 评分5.5      男主角：Qu Lu Sheng
- 电影名：52赫兹，我爱你 评分6.0      男主角：Qu Lu Sheng
- 电影名：美容针 评分4.1      男主角：Qu Lu Sheng
- 电影名：本能寺酒店 评分6.1      男主角：Qu Lu Sheng
- 电影名：女教师 评分5.6      男主角：Qu Lu Sheng
- 电影名：空难余波 评分5.5      男主角：Qu Lu Sheng
- 电影名：最后的话 评分7.5      男主角：Qu Lu Sheng
- 电影名：不期而遇 评分3.8      男主角：Qu Lu Sheng
- 电影名：墙里的声音 评分5.3      男主角：Qu Lu Sheng
+ 电影名：小丑回魂 评分7.5 URL:https://movie.douban.com/subject/3604148/      男主角：Qu Lu Sheng
+ 电影名：忌日快乐 评分7.2 URL:https://movie.douban.com/subject/27027913/      男主角：Qu Lu Sheng
+ 电影名：圣鹿之死 评分7.0 URL:https://movie.douban.com/subject/26724989/      男主角：Qu Lu Sheng
+ 电影名：我想吃掉你的胰脏 评分7.2 URL:https://movie.douban.com/subject/26869119/      男主角：Qu Lu Sheng
+ 电影名：起跑线 评分8.2 URL:https://movie.douban.com/subject/26942631/      男主角：Qu Lu Sheng
+ 电影名：春宵苦短，少女前进吧！ 评分8.9 URL:https://movie.douban.com/subject/26935251/      男主角：Qu Lu Sheng
+ 电影名：我能说 评分8.7 URL:https://movie.douban.com/subject/27000061/      男主角：Qu Lu Sheng
+ 电影名：战狼2 评分7.3 URL:https://movie.douban.com/subject/26363254/      男主角：Qu Lu Sheng
+ 电影名：极寒之城 评分7.2 URL:https://movie.douban.com/subject/26386034/      男主角：Qu Lu Sheng
+ 电影名：猩球崛起3：终极之战 评分6.9 URL:https://movie.douban.com/subject/25808075/      男主角：Qu Lu Sheng
+ 电影名：美国行动 评分7.5 URL:https://movie.douban.com/subject/26304310/      男主角：Qu Lu Sheng
+ 电影名：杀破狼·贪狼 评分7.2 URL:https://movie.douban.com/subject/26826398/      男主角：Qu Lu Sheng
+ 电影名：王牌保镖 评分7.3 URL:https://movie.douban.com/subject/22266126/      男主角：Qu Lu Sheng
+ 电影名：大护法 评分7.8 URL:https://movie.douban.com/subject/26811587/      男主角：Qu Lu Sheng
+ 电影名：猎凶风河谷 评分7.7 URL:https://movie.douban.com/subject/26389601/      男主角：Qu Lu Sheng
+ 电影名：赛车总动员3：极速挑战 评分7.1 URL:https://movie.douban.com/subject/25849480/      男主角：Qu Lu Sheng
+ 电影名：星际特工：千星之城 评分7.1 URL:https://movie.douban.com/subject/11502973/      男主角：Qu Lu Sheng
+ 电影名：杀人者的记忆法 评分7.1 URL:https://movie.douban.com/subject/26391916/      男主角：Qu Lu Sheng
+ 电影名：极盗车神 评分7.1 URL:https://movie.douban.com/subject/25933890/      男主角：Qu Lu Sheng
+ 电影名：小戏骨：红楼梦之刘姥姥进大观园 评分9.2 URL:https://movie.douban.com/subject/26951951/      男主角：Qu Lu Sheng
+ 电影名：蜘蛛侠：英雄归来 评分7.4 URL:https://movie.douban.com/subject/24753477/      男主角：Qu Lu Sheng
+ 电影名：银魂 评分7.3 URL:https://movie.douban.com/subject/26816086/      男主角：Qu Lu Sheng
+ 电影名：生存家族 评分8.1 URL:https://movie.douban.com/subject/26815162/      男主角：Qu Lu Sheng
+ 电影名：宣告黎明的露之歌 评分8.0 URL:https://movie.douban.com/subject/26958502/      男主角：Qu Lu Sheng
+ 电影名：报告老师！怪怪怪怪物！ 评分6.5 URL:https://movie.douban.com/subject/26720627/      男主角：Qu Lu Sheng
+ 电影名：鬼魅浮生 评分7.5 URL:https://movie.douban.com/subject/26920017/      男主角：Qu Lu Sheng
+ 电影名：十万个冷笑话2 评分7.4 URL:https://movie.douban.com/subject/26759539/      男主角：Qu Lu Sheng
+ 电影名：侠盗联盟 评分5.4 URL:https://movie.douban.com/subject/25858758/      男主角：Qu Lu Sheng
+ 电影名：神偷奶爸3 评分6.9 URL:https://movie.douban.com/subject/25812712/      男主角：Qu Lu Sheng
+ 电影名：闪光少女 评分7.4 URL:https://movie.douban.com/subject/26790961/      男主角：Qu Lu Sheng
+ 电影名：心理罪 评分5.1 URL:https://movie.douban.com/subject/26698000/      男主角：Qu Lu Sheng
+ 电影名：辣手保姆 评分6.7 URL:https://movie.douban.com/subject/26704621/      男主角：Qu Lu Sheng
+ 电影名：双面情人 评分6.7 URL:https://movie.douban.com/subject/26892546/      男主角：Qu Lu Sheng
+ 电影名：三生三世十里桃花 评分4.0 URL:https://movie.douban.com/subject/25823277/      男主角：Qu Lu Sheng
+ 电影名：军舰岛 评分7.7 URL:https://movie.douban.com/subject/26445216/      男主角：Qu Lu Sheng
+ 电影名：摔跤吧！爸爸 评分9.1 URL:https://movie.douban.com/subject/26387939/      男主角：Qu Lu Sheng
+ 电影名：杰罗德游戏 评分6.2 URL:https://movie.douban.com/subject/26602795/      男主角：Qu Lu Sheng
+ 电影名：名侦探柯南：唐红的恋歌 评分6.4 URL:https://movie.douban.com/subject/26788667/      男主角：Qu Lu Sheng
+ 电影名：明月几时有 评分7.0 URL:https://movie.douban.com/subject/26425072/      男主角：Qu Lu Sheng
+ 电影名：悟空传 评分5.1 URL:https://movie.douban.com/subject/26035290/      男主角：Qu Lu Sheng
+ 电影名：加勒比海盗5：死无对证 评分7.2 URL:https://movie.douban.com/subject/6311303/      男主角：Qu Lu Sheng
+ 电影名：玻璃城堡 评分7.3 URL:https://movie.douban.com/subject/10743963/      男主角：Qu Lu Sheng
+ 电影名：破·局 评分6.3 URL:https://movie.douban.com/subject/26760160/      男主角：Qu Lu Sheng
+ 电影名：虐杀器官 评分7.3 URL:https://movie.douban.com/subject/25850715/      男主角：Qu Lu Sheng
+ 电影名：丛林 评分6.7 URL:https://movie.douban.com/subject/26726261/      男主角：Qu Lu Sheng
+ 电影名：无爱可诉 评分7.1 URL:https://movie.douban.com/subject/26785590/      男主角：Qu Lu Sheng
+ 电影名：变形金刚5：最后的骑士 评分4.8 URL:https://movie.douban.com/subject/25824686/      男主角：Qu Lu Sheng
+ 电影名：安娜贝尔2：诞生 评分6.4 URL:https://movie.douban.com/subject/26644205/      男主角：Qu Lu Sheng
+ 电影名：牡丹花下 评分5.9 URL:https://movie.douban.com/subject/26761325/      男主角：Qu Lu Sheng
+ 电影名：绣春刀II：修罗战场 评分7.4 URL:https://movie.douban.com/subject/26270502/      男主角：Qu Lu Sheng
+ 电影名：目击者之追凶 评分8.1 URL:https://movie.douban.com/subject/11600078/      男主角：Qu Lu Sheng
+ 电影名：记忆大师 评分7.2 URL:https://movie.douban.com/subject/25884801/      男主角：Qu Lu Sheng
+ 电影名：神奇女侠 评分7.1 URL:https://movie.douban.com/subject/1578714/      男主角：Qu Lu Sheng
+ 电影名：猎杀星期一 评分6.8 URL:https://movie.douban.com/subject/7154408/      男主角：Qu Lu Sheng
+ 电影名：黑暗塔 评分5.0 URL:https://movie.douban.com/subject/4943938/      男主角：Qu Lu Sheng
+ 电影名：银河护卫队2 评分8.1 URL:https://movie.douban.com/subject/25937854/      男主角：Qu Lu Sheng
+ 电影名：蚯蚓 评分6.8 URL:https://movie.douban.com/subject/27038968/      男主角：Qu Lu Sheng
+ 电影名：私人会所 评分3.9 URL:https://movie.douban.com/subject/26996753/      男主角：Qu Lu Sheng
+ 电影名：天才少女 评分8.1 URL:https://movie.douban.com/subject/26593587/      男主角：Qu Lu Sheng
+ 电影名：刺杀盖世太保 评分6.5 URL:https://movie.douban.com/subject/26383923/      男主角：Qu Lu Sheng
+ 电影名：22年后的自白：我是杀人犯 评分7.3 URL:https://movie.douban.com/subject/26835911/      男主角：Qu Lu Sheng
+ 电影名：金刚狼3：殊死一战 评分8.3 URL:https://movie.douban.com/subject/25765735/      男主角：Qu Lu Sheng
+ 电影名：速度与激情8 评分7.1 URL:https://movie.douban.com/subject/26260853/      男主角：Qu Lu Sheng
+ 电影名：大病 评分7.6 URL:https://movie.douban.com/subject/26884892/      男主角：Qu Lu Sheng
+ 电影名：攻壳机动队 评分6.5 URL:https://movie.douban.com/subject/25818101/      男主角：Qu Lu Sheng
+ 电影名：纽约唯一活着的男孩 评分6.1 URL:https://movie.douban.com/subject/1927366/      男主角：Qu Lu Sheng
+ 电影名：神奇动物在哪里 评分7.8 URL:https://movie.douban.com/subject/25726614/      男主角：Qu Lu Sheng
+ 电影名：三个老枪手 评分7.6 URL:https://movie.douban.com/subject/26266085/      男主角：Qu Lu Sheng
+ 电影名：新木乃伊 评分4.7 URL:https://movie.douban.com/subject/20451290/      男主角：Qu Lu Sheng
+ 电影名：人皮脸 评分5.4 URL:https://movie.douban.com/subject/25958867/      男主角：Qu Lu Sheng
+ 电影名：嗨翻姐妹行 评分6.3 URL:https://movie.douban.com/subject/26964234/      男主角：Qu Lu Sheng
+ 电影名：生化危机：终章 评分6.6 URL:https://movie.douban.com/subject/20471852/      男主角：Qu Lu Sheng
+ 电影名：逃出绝命镇 评分7.5 URL:https://movie.douban.com/subject/26688480/      男主角：Qu Lu Sheng
+ 电影名：表情奇幻冒险 评分5.1 URL:https://movie.douban.com/subject/26577354/      男主角：Qu Lu Sheng
+ 电影名：杀人优越权 评分6.7 URL:https://movie.douban.com/subject/26858970/      男主角：Qu Lu Sheng
+ 电影名：昼行闪耀的流星 评分6.4 URL:https://movie.douban.com/subject/26873577/      男主角：Qu Lu Sheng
+ 电影名：青禾男高 评分4.0 URL:https://movie.douban.com/subject/26787124/      男主角：Qu Lu Sheng
+ 电影名：虚拟实惊 评分6.5 URL:https://movie.douban.com/subject/27043957/      男主角：Qu Lu Sheng
+ 电影名：巴霍巴利王(下)：终结 评分7.1 URL:https://movie.douban.com/subject/26420932/      男主角：Qu Lu Sheng
+ 电影名：异形：契约 评分7.3 URL:https://movie.douban.com/subject/11803087/      男主角：Qu Lu Sheng
+ 电影名：美女与野兽 评分7.2 URL:https://movie.douban.com/subject/25900945/      男主角：Qu Lu Sheng
+ 电影名：宝贝老板 评分7.3 URL:https://movie.douban.com/subject/25907029/      男主角：Qu Lu Sheng
+ 电影名：斯隆女士 评分8.7 URL:https://movie.douban.com/subject/26703158/      男主角：Qu Lu Sheng
+ 电影名：一条狗的使命 评分7.7 URL:https://movie.douban.com/subject/6873143/      男主角：Qu Lu Sheng
+ 电影名：罗曼蒂克消亡史 评分7.7 URL:https://movie.douban.com/subject/24751763/      男主角：Qu Lu Sheng
+ 电影名：嫌疑人X的献身 评分6.4 URL:https://movie.douban.com/subject/26606743/      男主角：Qu Lu Sheng
+ 电影名：酒吧 评分6.3 URL:https://movie.douban.com/subject/26694497/      男主角：Qu Lu Sheng
+ 电影名：好时光 评分7.6 URL:https://movie.douban.com/subject/26528871/      男主角：Qu Lu Sheng
+ 电影名：99号牢房内的博弈 评分6.5 URL:https://movie.douban.com/subject/26844764/      男主角：Qu Lu Sheng
+ 电影名：春娇救志明 评分7.2 URL:https://movie.douban.com/subject/26639958/      男主角：Qu Lu Sheng
+ 电影名：刺客信条 评分5.4 URL:https://movie.douban.com/subject/11526817/      男主角：Qu Lu Sheng
+ 电影名：喜欢你 评分6.9 URL:https://movie.douban.com/subject/26816383/      男主角：Qu Lu Sheng
+ 电影名：1922 评分5.9 URL:https://movie.douban.com/subject/26992413/      男主角：Qu Lu Sheng
+ 电影名：3月的狮子 后篇 评分7.4 URL:https://movie.douban.com/subject/26748877/      男主角：Qu Lu Sheng
+ 电影名：迈耶罗维茨的故事 评分6.7 URL:https://movie.douban.com/subject/26743601/      男主角：Qu Lu Sheng
+ 电影名：与君相恋100次 评分6.3 URL:https://movie.douban.com/subject/26766760/      男主角：Qu Lu Sheng
+ 电影名：他们先杀了我父亲：一个柬埔寨女儿的回忆录 评分7.5 URL:https://movie.douban.com/subject/26578144/      男主角：Qu Lu Sheng
+ 电影名：金刚：骷髅岛 评分6.6 URL:https://movie.douban.com/subject/26309788/      男主角：Qu Lu Sheng
+ 电影名：在这世界的角落 评分7.6 URL:https://movie.douban.com/subject/11611021/      男主角：Qu Lu Sheng
+ 电影名：青年警察 评分7.2 URL:https://movie.douban.com/subject/26892281/      男主角：Qu Lu Sheng
+ 电影名：原谅他77次 评分6.6 URL:https://movie.douban.com/subject/26857793/      男主角：Qu Lu Sheng
+ 电影名：功夫瑜伽 评分5.0 URL:https://movie.douban.com/subject/26182910/      男主角：Qu Lu Sheng
+ 电影名：亚瑟王：斗兽争霸 评分7.1 URL:https://movie.douban.com/subject/25864124/      男主角：Qu Lu Sheng
+ 电影名：乐高幻影忍者大电影 评分6.2 URL:https://movie.douban.com/subject/25833230/      男主角：Qu Lu Sheng
+ 电影名：猜火车2 评分8.0 URL:https://movie.douban.com/subject/22263645/      男主角：Qu Lu Sheng
+ 电影名：恐袭波士顿 评分8.0 URL:https://movie.douban.com/subject/26357945/      男主角：Qu Lu Sheng
+ 电影名：黑白迷宫 评分4.6 URL:https://movie.douban.com/subject/26752106/      男主角：Qu Lu Sheng
+ 电影名：大创业家 评分7.3 URL:https://movie.douban.com/subject/26280709/      男主角：Qu Lu Sheng
+ 电影名：独自在夜晚的海边 评分7.1 URL:https://movie.douban.com/subject/26718282/      男主角：Qu Lu Sheng
+ 电影名：分裂 评分7.2 URL:https://movie.douban.com/subject/26600660/      男主角：Qu Lu Sheng
+ 电影名：失眠 评分6.0 URL:https://movie.douban.com/subject/26748223/      男主角：Qu Lu Sheng
+ 电影名：3月的狮子 前篇 评分7.4 URL:https://movie.douban.com/subject/26615511/      男主角：Qu Lu Sheng
+ 电影名：“吃吃”的爱 评分5.5 URL:https://movie.douban.com/subject/26279202/      男主角：Qu Lu Sheng
+ 电影名：缉枪 评分6.3 URL:https://movie.douban.com/subject/26801782/      男主角：Qu Lu Sheng
+ 电影名：太空旅客 评分6.9 URL:https://movie.douban.com/subject/3434070/      男主角：Qu Lu Sheng
+ 电影名：长城 评分4.9 URL:https://movie.douban.com/subject/6982558/      男主角：Qu Lu Sheng
+ 电影名：鲛珠传 评分4.4 URL:https://movie.douban.com/subject/25857966/      男主角：Qu Lu Sheng
+ 电影名：超速驾驶 评分5.2 URL:https://movie.douban.com/subject/6529890/      男主角：Qu Lu Sheng
+ 电影名：绝世高手 评分6.1 URL:https://movie.douban.com/subject/26754831/      男主角：Qu Lu Sheng
+ 电影名：极限特工3：终极回归 评分5.6 URL:https://movie.douban.com/subject/3230115/      男主角：Qu Lu Sheng
+ 电影名：乘风破浪 评分6.8 URL:https://movie.douban.com/subject/26862259/      男主角：Qu Lu Sheng
+ 电影名：仓皇一夜 评分5.5 URL:https://movie.douban.com/subject/26687241/      男主角：Qu Lu Sheng
+ 电影名：五十度黑 评分4.9 URL:https://movie.douban.com/subject/26323031/      男主角：Qu Lu Sheng
+ 电影名：一锤定音 评分7.4 URL:https://movie.douban.com/subject/26383898/      男主角：Qu Lu Sheng
+ 电影名：之后 评分7.5 URL:https://movie.douban.com/subject/27018296/      男主角：Qu Lu Sheng
+ 电影名：沉默 评分7.6 URL:https://movie.douban.com/subject/1884684/      男主角：Qu Lu Sheng
+ 电影名：亨利之书 评分6.6 URL:https://movie.douban.com/subject/26357441/      男主角：Qu Lu Sheng
+ 电影名：反转人生 评分5.2 URL:https://movie.douban.com/subject/25827741/      男主角：Qu Lu Sheng
+ 电影名：乐高蝙蝠侠大电影 评分8.0 URL:https://movie.douban.com/subject/26145033/      男主角：Qu Lu Sheng
+ 电影名：我的上高 评分8.3 URL:https://movie.douban.com/subject/26990713/      男主角：Qu Lu Sheng
+ 电影名：傲娇与偏见 评分5.0 URL:https://movie.douban.com/subject/26644002/      男主角：Qu Lu Sheng
+ 电影名：海洋奇缘 评分7.6 URL:https://movie.douban.com/subject/25793398/      男主角：Qu Lu Sheng
+ 电影名：疾速特攻 评分7.3 URL:https://movie.douban.com/subject/26333560/      男主角：Qu Lu Sheng
+ 电影名：海带 评分7.2 URL:https://movie.douban.com/subject/27133264/      男主角：Qu Lu Sheng
+ 电影名：拆弹专家 评分6.4 URL:https://movie.douban.com/subject/26748673/      男主角：Qu Lu Sheng
+ 电影名：逆时营救 评分4.8 URL:https://movie.douban.com/subject/26667056/      男主角：Qu Lu Sheng
+ 电影名：异星觉醒 评分6.5 URL:https://movie.douban.com/subject/26718838/      男主角：Qu Lu Sheng
+ 电影名：真实 评分4.9 URL:https://movie.douban.com/subject/26362764/      男主角：Qu Lu Sheng
+ 电影名：摆渡人 评分4.0 URL:https://movie.douban.com/subject/25911694/      男主角：Qu Lu Sheng
+ 电影名：明日的我与昨日的你约会 评分7.5 URL:https://movie.douban.com/subject/26707472/      男主角：Qu Lu Sheng
+ 电影名：雌猫们 评分5.7 URL:https://movie.douban.com/subject/26862905/      男主角：Qu Lu Sheng
+ 电影名：狙击精英：巅峰对决 评分5.4 URL:https://movie.douban.com/subject/26957177/      男主角：Qu Lu Sheng
+ 电影名：情圣 评分6.1 URL:https://movie.douban.com/subject/26879060/      男主角：Qu Lu Sheng
+ 电影名：被掩盖的时间 评分7.5 URL:https://movie.douban.com/subject/26527937/      男主角：Qu Lu Sheng
+ 电影名：秘果 评分4.8 URL:https://movie.douban.com/subject/26650037/      男主角：Qu Lu Sheng
+ 电影名：间谍同盟 评分7.0 URL:https://movie.douban.com/subject/25978126/      男主角：Qu Lu Sheng
+ 电影名：西游伏妖篇 评分5.6 URL:https://movie.douban.com/subject/25801066/      男主角：Qu Lu Sheng
+ 电影名：恶女 评分6.2 URL:https://movie.douban.com/subject/26946508/      男主角：Qu Lu Sheng
+ 电影名：肌肤 评分7.6 URL:https://movie.douban.com/subject/26964434/      男主角：Qu Lu Sheng
+ 电影名：蜜桃女孩 评分4.5 URL:https://movie.douban.com/subject/26761228/      男主角：Qu Lu Sheng
+ 电影名：忠爱无言 评分7.2 URL:https://movie.douban.com/subject/26995137/      男主角：Qu Lu Sheng
+ 电影名：父子雄兵 评分4.7 URL:https://movie.douban.com/subject/26898747/      男主角：Qu Lu Sheng
+ 电影名：救命解药 评分6.9 URL:https://movie.douban.com/subject/26363201/      男主角：Qu Lu Sheng
+ 电影名：被操纵的城市 评分7.3 URL:https://movie.douban.com/subject/26340301/      男主角：Qu Lu Sheng
+ 电影名：白百合 评分5.0 URL:https://movie.douban.com/subject/26855690/      男主角：Qu Lu Sheng
+ 电影名：健忘村 评分6.7 URL:https://movie.douban.com/subject/26717795/      男主角：Qu Lu Sheng
+ 电影名：猫咪后院之家 评分6.4 URL:https://movie.douban.com/subject/26954690/      男主角：Qu Lu Sheng
+ 电影名：黑执事：大西洋之书 评分8.2 URL:https://movie.douban.com/subject/26640849/      男主角：Qu Lu Sheng
+ 电影名：毒。诫 评分4.8 URL:https://movie.douban.com/subject/26605946/      男主角：Qu Lu Sheng
+ 电影名：小戏骨：放开那三国 评分8.2 URL:https://movie.douban.com/subject/26951953/      男主角：Qu Lu Sheng
+ 电影名：不汗党 评分6.9 URL:https://movie.douban.com/subject/26770698/      男主角：Qu Lu Sheng
+ 电影名：哆啦A梦：大雄的南极冰冰凉大冒险 评分6.6 URL:https://movie.douban.com/subject/26839466/      男主角：Qu Lu Sheng
+ 电影名：玉子 评分6.6 URL:https://movie.douban.com/subject/26365236/      男主角：Qu Lu Sheng
+ 电影名：麻烦家族 评分4.6 URL:https://movie.douban.com/subject/26907450/      男主角：Qu Lu Sheng
+ 电影名：王者 评分7.4 URL:https://movie.douban.com/subject/26410593/      男主角：Qu Lu Sheng
+ 电影名：圆圈 评分5.1 URL:https://movie.douban.com/subject/26284593/      男主角：Qu Lu Sheng
+ 电影名：一天 评分7.1 URL:https://movie.douban.com/subject/26757945/      男主角：Qu Lu Sheng
+ 电影名：疯狂修道院 评分5.9 URL:https://movie.douban.com/subject/26832720/      男主角：Qu Lu Sheng
+ 电影名：非凡任务 评分6.4 URL:https://movie.douban.com/subject/26616690/      男主角：Qu Lu Sheng
+ 电影名：荡寇风云 评分6.1 URL:https://movie.douban.com/subject/26385746/      男主角：Qu Lu Sheng
+ 电影名：黑子的篮球：最后的游戏 评分6.8 URL:https://movie.douban.com/subject/26615753/      男主角：Qu Lu Sheng
+ 电影名：救僵清道夫 评分5.3 URL:https://movie.douban.com/subject/26759783/      男主角：Qu Lu Sheng
+ 电影名：潘多拉 评分7.4 URL:https://movie.douban.com/subject/26169607/      男主角：Qu Lu Sheng
+ 电影名：歌声不绝 评分5.5 URL:https://movie.douban.com/subject/6854414/      男主角：Qu Lu Sheng
+ 电影名：浮生梦 评分6.1 URL:https://movie.douban.com/subject/26635987/      男主角：Qu Lu Sheng
+ 电影名：京城81号2 评分3.9 URL:https://movie.douban.com/subject/26662798/      男主角：Qu Lu Sheng
+ 电影名：时间中的孩子 评分6.7 URL:https://movie.douban.com/subject/26977165/      男主角：Qu Lu Sheng
+ 电影名：那些爱人 评分6.8 URL:https://movie.douban.com/subject/26949321/      男主角：Qu Lu Sheng
+ 电影名：星球大战外传：侠盗一号 评分7.3 URL:https://movie.douban.com/subject/25894431/      男主角：Qu Lu Sheng
+ 电影名：单身骑士 评分6.8 URL:https://movie.douban.com/subject/26715549/      男主角：Qu Lu Sheng
+ 电影名：我是马布里 评分6.3 URL:https://movie.douban.com/subject/25903033/      男主角：Qu Lu Sheng
+ 电影名：生死之墙 评分6.9 URL:https://movie.douban.com/subject/26761688/      男主角：Qu Lu Sheng
+ 电影名：豆福传 评分5.6 URL:https://movie.douban.com/subject/26705107/      男主角：Qu Lu Sheng
+ 电影名：西谎极落之太爆太子太空舱 评分6.2 URL:https://movie.douban.com/subject/26857170/      男主角：Qu Lu Sheng
+ 电影名：海滩游侠 评分5.6 URL:https://movie.douban.com/subject/3837666/      男主角：Qu Lu Sheng
+ 电影名：喵星人 评分4.5 URL:https://movie.douban.com/subject/26747836/      男主角：Qu Lu Sheng
+ 电影名：大耳朵图图之美食狂想曲 评分5.6 URL:https://movie.douban.com/subject/22232939/      男主角：Qu Lu Sheng
+ 电影名：守护者：世纪战元 评分3.9 URL:https://movie.douban.com/subject/26589957/      男主角：Qu Lu Sheng
+ 电影名：28岁未成年 评分5.7 URL:https://movie.douban.com/subject/26658568/      男主角：Qu Lu Sheng
+ 电影名：惊天解密 评分5.8 URL:https://movie.douban.com/subject/22266475/      男主角：Qu Lu Sheng
+ 电影名：星游记之风暴法米拉 评分7.6 URL:https://movie.douban.com/subject/26771100/      男主角：Qu Lu Sheng
+ 电影名：蜡笔小新：宇宙人来袭 评分6.9 URL:https://movie.douban.com/subject/26894593/      男主角：Qu Lu Sheng
+ 电影名：黑夜造访 评分5.8 URL:https://movie.douban.com/subject/26815381/      男主角：Qu Lu Sheng
+ 电影名：今天的吉良同学 评分6.2 URL:https://movie.douban.com/subject/26817018/      男主角：Qu Lu Sheng
+ 电影名：二次初恋 评分4.3 URL:https://movie.douban.com/subject/27040349/      男主角：Qu Lu Sheng
+ 电影名：特别市民 评分6.4 URL:https://movie.douban.com/subject/26695659/      男主角：Qu Lu Sheng
+ 电影名：了不起的菲丽西 评分6.5 URL:https://movie.douban.com/subject/26382767/      男主角：Qu Lu Sheng
+ 电影名：李雷和韩梅梅 评分3.4 URL:https://movie.douban.com/subject/26289138/      男主角：Qu Lu Sheng
+ 电影名：美好的意外 评分5.5 URL:https://movie.douban.com/subject/26382962/      男主角：Qu Lu Sheng
+ 电影名：死亡笔记 评分4.0 URL:https://movie.douban.com/subject/5920220/      男主角：Qu Lu Sheng
+ 电影名：你好，疯子！ 评分6.8 URL:https://movie.douban.com/subject/26696879/      男主角：Qu Lu Sheng
+ 电影名：忽然七日 评分6.4 URL:https://movie.douban.com/subject/5327217/      男主角：Qu Lu Sheng
+ 电影名：阿唐奇遇 评分7.1 URL:https://movie.douban.com/subject/26803711/      男主角：Qu Lu Sheng
+ 电影名：绑架者 评分4.9 URL:https://movie.douban.com/subject/26602933/      男主角：Qu Lu Sheng
+ 电影名：附属美丽 评分6.6 URL:https://movie.douban.com/subject/26389329/      男主角：Qu Lu Sheng
+ 电影名：藩篱 评分6.9 URL:https://movie.douban.com/subject/21339682/      男主角：Qu Lu Sheng
+ 电影名：夜色撩人 评分4.7 URL:https://movie.douban.com/subject/26425075/      男主角：Qu Lu Sheng
+ 电影名：奇迹，那天如此重要 评分7.5 URL:https://movie.douban.com/subject/26809007/      男主角：Qu Lu Sheng
+ 电影名：金矿 评分7.7 URL:https://movie.douban.com/subject/7065334/      男主角：Qu Lu Sheng
+ 电影名：P与JK 评分5.1 URL:https://movie.douban.com/subject/26788605/      男主角：Qu Lu Sheng
+ 电影名：死于独特 评分7.8 URL:https://movie.douban.com/subject/27090211/      男主角：Qu Lu Sheng
+ 电影名：欺诈圣手 评分6.5 URL:https://movie.douban.com/subject/6875268/      男主角：Qu Lu Sheng
+ 电影名：妄想学生会 剧场版 评分8.1 URL:https://movie.douban.com/subject/26934285/      男主角：Qu Lu Sheng
+ 电影名：超凡战队 评分4.6 URL:https://movie.douban.com/subject/25881615/      男主角：Qu Lu Sheng
+ 电影名：海滩的一天 评分8.3 URL:https://movie.douban.com/subject/1298871/      男主角：Qu Lu Sheng
+ 电影名：铁道飞虎 评分5.2 URL:https://movie.douban.com/subject/26389069/      男主角：Qu Lu Sheng
+ 电影名：黑夜传说5：血战 评分5.7 URL:https://movie.douban.com/subject/19951149/      男主角：Qu Lu Sheng
+ 电影名：有完没完 评分5.4 URL:https://movie.douban.com/subject/26828019/      男主角：Qu Lu Sheng
+ 电影名：超级快递 评分4.5 URL:https://movie.douban.com/subject/26651353/      男主角：Qu Lu Sheng
+ 电影名：重返17岁 评分6.6 URL:https://movie.douban.com/subject/26887031/      男主角：Qu Lu Sheng
+ 电影名：BLAME! 评分7.6 URL:https://movie.douban.com/subject/26670584/      男主角：Qu Lu Sheng
+ 电影名：骨瘦如柴 评分6.7 URL:https://movie.douban.com/subject/26761636/      男主角：Qu Lu Sheng
+ 电影名：幽冥 评分7.1 URL:https://movie.douban.com/subject/20514871/      男主角：Qu Lu Sheng
+ 电影名：再审 评分6.6 URL:https://movie.douban.com/subject/26806719/      男主角：Qu Lu Sheng
+ 电影名：暗黑女子 评分6.2 URL:https://movie.douban.com/subject/26870765/      男主角：Qu Lu Sheng
+ 电影名：蓝精灵：寻找神秘村 评分6.3 URL:https://movie.douban.com/subject/19899718/      男主角：Qu Lu Sheng
+ 电影名：梅根·利维 评分7.1 URL:https://movie.douban.com/subject/26610786/      男主角：Qu Lu Sheng
+ 电影名：共助 评分6.7 URL:https://movie.douban.com/subject/26616145/      男主角：Qu Lu Sheng
+ 电影名：数码宝贝大冒险tri. 第5章：共生 评分5.1 URL:https://movie.douban.com/subject/26746803/      男主角：Qu Lu Sheng
+ 电影名：决战食神 评分4.7 URL:https://movie.douban.com/subject/26711487/      男主角：Qu Lu Sheng
+ 电影名：绝命时钟2:22 评分6.0 URL:https://movie.douban.com/subject/2338070/      男主角：Qu Lu Sheng
+ 电影名：小情书 评分6.3 URL:https://movie.douban.com/subject/26956641/      男主角：Qu Lu Sheng
+ 电影名：神秘家族 评分4.9 URL:https://movie.douban.com/subject/26292682/      男主角：Qu Lu Sheng
+ 电影名：一周的朋友 评分6.3 URL:https://movie.douban.com/subject/26646360/      男主角：Qu Lu Sheng
+ 电影名：许愿 评分5.7 URL:https://movie.douban.com/subject/26686502/      男主角：Qu Lu Sheng
+ 电影名：六人晚餐 评分5.5 URL:https://movie.douban.com/subject/26412618/      男主角：Qu Lu Sheng
+ 电影名：夜色人生 评分6.3 URL:https://movie.douban.com/subject/10752547/      男主角：Qu Lu Sheng
+ 电影名：布希维克 评分5.9 URL:https://movie.douban.com/subject/26935529/      男主角：Qu Lu Sheng
+ 电影名：家族之苦2 评分8.8 URL:https://movie.douban.com/subject/26848504/      男主角：Qu Lu Sheng
+ 电影名：绝对控制 评分5.2 URL:https://movie.douban.com/subject/26608448/      男主角：Qu Lu Sheng
+ 电影名：怪兽卡车 评分6.0 URL:https://movie.douban.com/subject/24910035/      男主角：Qu Lu Sheng
+ 电影名：解冻 评分6.4 URL:https://movie.douban.com/subject/26574949/      男主角：Qu Lu Sheng
+ 电影名：末日重启 评分4.1 URL:https://movie.douban.com/subject/26764514/      男主角：Qu Lu Sheng
+ 电影名：哥 评分7.3 URL:https://movie.douban.com/subject/26582438/      男主角：Qu Lu Sheng
+ 电影名：鬼娃回魂7 评分4.6 URL:https://movie.douban.com/subject/26381819/      男主角：Qu Lu Sheng
+ 电影名：哀乐女子天团 评分6.9 URL:https://movie.douban.com/subject/27041519/      男主角：Qu Lu Sheng
+ 电影名：动物园长的夫人 评分6.9 URL:https://movie.douban.com/subject/24522026/      男主角：Qu Lu Sheng
+ 电影名：无处为家 评分7.1 URL:https://movie.douban.com/subject/26843352/      男主角：Qu Lu Sheng
+ 电影名：为什么是他？ 评分6.4 URL:https://movie.douban.com/subject/26599156/      男主角：Qu Lu Sheng
+ 电影名：那年夏天你去了哪里 评分4.7 URL:https://movie.douban.com/subject/26876595/      男主角：Qu Lu Sheng
+ 电影名：不干了，我开除了黑心公司 评分6.4 URL:https://movie.douban.com/subject/26845247/      男主角：Qu Lu Sheng
+ 电影名：我的英格兰 评分6.9 URL:https://movie.douban.com/subject/26789596/      男主角：Qu Lu Sheng
+ 电影名：夏天19岁的肖像 评分4.9 URL:https://movie.douban.com/subject/26677981/      男主角：Qu Lu Sheng
+ 电影名：杀死冈瑟 评分5.6 URL:https://movie.douban.com/subject/26786106/      男主角：Qu Lu Sheng
+ 电影名：星河战队：火星叛国者 评分5.8 URL:https://movie.douban.com/subject/27064923/      男主角：Qu Lu Sheng
+ 电影名：指甲刀人魔 评分4.4 URL:https://movie.douban.com/subject/26352435/      男主角：Qu Lu Sheng
+ 电影名：伤物语3：冷血篇 评分8.3 URL:https://movie.douban.com/subject/26635321/      男主角：Qu Lu Sheng
+ 电影名：生化危机：复仇 评分6.4 URL:https://movie.douban.com/subject/26876342/      男主角：Qu Lu Sheng
+ 电影名：美容针 评分4.1 URL:https://movie.douban.com/subject/26779288/      男主角：Qu Lu Sheng
+ 电影名：梅格雷的十字路口之夜 评分7.4 URL:https://movie.douban.com/subject/26946197/      男主角：Qu Lu Sheng
+ 电影名：金融决战 评分6.5 URL:https://movie.douban.com/subject/26688846/      男主角：Qu Lu Sheng
+ 电影名：突然20岁 评分7.0 URL:https://movie.douban.com/subject/26882440/      男主角：Qu Lu Sheng
+ 电影名：东北往事之破马张飞 评分3.6 URL:https://movie.douban.com/subject/26691509/      男主角：Qu Lu Sheng
+ 电影名：一条龙 评分6.6 URL:https://movie.douban.com/subject/26598291/      男主角：Qu Lu Sheng
+ 电影名：六天 评分6.2 URL:https://movie.douban.com/subject/26438227/      男主角：Qu Lu Sheng
+ 电影名：少年 评分5.8 URL:https://movie.douban.com/subject/26754643/      男主角：Qu Lu Sheng
+ 电影名：隐于书后 评分7.8 URL:https://movie.douban.com/subject/26392856/      男主角：Qu Lu Sheng
+ 电影名：叛狱无间 评分6.5 URL:https://movie.douban.com/subject/26577180/      男主角：Qu Lu Sheng
+ 电影名：血狼犬 评分5.7 URL:https://movie.douban.com/subject/26882327/      男主角：Qu Lu Sheng
+ 电影名：代立军 评分6.2 URL:https://movie.douban.com/subject/26800974/      男主角：Qu Lu Sheng
+ 电影名：疯狂之家 评分5.3 URL:https://movie.douban.com/subject/26462378/      男主角：Qu Lu Sheng
+ 电影名：最后的话 评分7.5 URL:https://movie.douban.com/subject/26638885/      男主角：Qu Lu Sheng
+ 电影名：爸爸是女儿 评分6.7 URL:https://movie.douban.com/subject/26657439/      男主角：Qu Lu Sheng
+ 电影名：熊出没·奇幻空间 评分6.4 URL:https://movie.douban.com/subject/26831711/      男主角：Qu Lu Sheng
+ 电影名：柏林综合症 评分5.9 URL:https://movie.douban.com/subject/26612600/      男主角：Qu Lu Sheng
+ 电影名：墙里的声音 评分5.3 URL:https://movie.douban.com/subject/4734756/      男主角：Qu Lu Sheng
+ 电影名：内裤队长 评分5.5 URL:https://movie.douban.com/subject/7065160/      男主角：Qu Lu Sheng

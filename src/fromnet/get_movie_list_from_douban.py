@@ -11,7 +11,8 @@ def get20Movie(url):
     movieNameAndScores = []
     for each in jsonObj.get('subjects'):
         movieNameAndScores.append(" 电影名：" + each.get('title')
-                                  + " 评分" + each.get('rate'))
+                                  + " 评分" + each.get('rate')
+                                  + " URL:" + each.get('url'))
         # print(each.get('title')+each.get('rate'))
     return movieNameAndScores
 
@@ -34,7 +35,7 @@ while 1:
         print(str(i) + each)
         file_lines.append(each)
         i += 1
-        if i >= 286:
+        if i >= 277:
             save(file_lines)
             break
     j += 20
