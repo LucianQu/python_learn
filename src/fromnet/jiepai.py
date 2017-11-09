@@ -87,10 +87,10 @@ def get_photo_urls(req, timeout=20):
         # list_url = re.search(r"\//.*\&quot", soup)
         # print(list_url)
 
-        title_article = "ceshi"
+        title_article = str(soup.select('title')[0].get_text)[36:-9]
         list_img = []
         for tag in soup.find_all(re.compile("script")):
-            title_article = "ceshi"
+
             # print(tag)
             # print("^^^^^^^^^^^^^^^^^^^^^^1^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
             # print(tag.string)
@@ -175,7 +175,7 @@ def save_photo(photo_url, save_dir, timeout=20):
 
 if __name__ == '__main__':
     ongoing = True
-    offset = 0  # 请求的偏移量，每次累加 20
+    offset = 50  # 请求的偏移量，每次累加 20
     root_dir = _create_dir('D:\jiepai')  # 保存图片的根目录
     request_headers = {
         'Referer': 'http://www.toutiao.com/search/?keyword=%E8%A1%97%E6%8B%8D',
@@ -191,7 +191,7 @@ if __name__ == '__main__':
             'format': 'json',
             'keyword': '街拍',
             'autoload': 'true',
-            'count': 20,  # 每次返回 20 篇文章
+            'count': 1,  # 每次返回 20 篇文章
             '_': timestamp
         }
         query_url = 'http://www.toutiao.com/search_content/' + '?' + _get_query_string(query_data)
@@ -221,7 +221,7 @@ if __name__ == '__main__':
                 # 这里使用文章的标题作为保存这篇文章全部图片的目录。
                 # 过滤掉了标题中在 windows 下无法作为目录名的特殊字符。
                 dir_name = re.sub(r'[\\/:*?"<>|]', '', article_heading)
-                download_dir = _create_dir(root_dir / str(offset))
+                download_dir = _create_dir(root_dir / dir_name)
 
                 # 开始下载文章中的图片
                 for p_url in photo_urls:
@@ -239,5 +239,5 @@ if __name__ == '__main__':
                 continue
 
         # 一次请求处理完毕，将偏移量加 20，继续获取新的 20 篇文章。
-        offset += 20
+        offset += 1
 
