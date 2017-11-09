@@ -10,7 +10,7 @@ from urllib import request
 from datetime import datetime
 from http.client import IncompleteRead
 from socket import timeout as socket_timeout
-import html5lib
+import urllib
 
 from bs4 import BeautifulSoup
 
@@ -53,7 +53,7 @@ def _get_query_string(data):
     return parse.urlencode(data)
 
 
-def get_article_urls(req, timeout=10):
+def get_article_urls(req, timeout=20):
     with request.urlopen(req, timeout=timeout) as res:
         d = json.loads(res.read().decode()).get('data')
 
@@ -65,18 +65,72 @@ def get_article_urls(req, timeout=10):
         return urls
 
 
-def get_photo_urls(req, timeout=10):
-    with request.urlopen(req, timeout=timeout) as res:
+def get_photo_urls(req, timeout=20):
+
+    with request.urlopen(req, timeout=timeout) as res:  # res = html
         # print(res)
         # 这里 decode 默认为 utf-8 编码，但返回的内容中含有部分非 utf-8 的内容，会导致解码失败
         # 所以我们使用 ignore 忽略这部分内容
         # print("***********************************************************")
-        soup = BeautifulSoup(res.read().decode(errors='ignore'), 'html5lib')
+        # soup = BeautifulSoup(res.read().decode(errors='ignore'), 'html5lib')
+        soup = BeautifulSoup(res.read().decode(errors='ignore'), 'html.parser')
         # print(soup)
-        # article_main = soup.find('div', id='article-main')
+        # article_main = soup.find('var', id='article-main')
+        # print(soup.prettify())
+        #scripts = soup.find_all("script")
+        # print(scripts)
 
-        title = soup.select('title')[0].get_text
-        print(title)
+        # //p
+        # &quot  '//p. + \.&quot'
+        # list_url = re.search(r"\//.*\&quot", soup)
+
+        # list_url = re.search(r"\//.*\&quot", soup)
+        # print(list_url)
+
+        title_article = "ceshi"
+        list_img = []
+        for tag in soup.find_all(re.compile("script")):
+            title_article = "ceshi"
+            # print(tag)
+            # print("^^^^^^^^^^^^^^^^^^^^^^1^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+            # print(tag.string)
+            var_BASE_DATA = tag.string
+            if var_BASE_DATA:
+                if "var BASE_DATA" in var_BASE_DATA:
+                    # r = re.compile(r'\//p.*\&quot')
+                    r = re.compile(r'(//p.*?\&quot)')
+                    # print(r.findall(var_BASE_DATA))
+                    list = r.findall(var_BASE_DATA)
+
+                    for l in list:
+                        # print(l)
+                        list_img.append("https://" + l[2:-5])
+                    # print(list_img)
+                    print(True)
+
+            # print("^^^^^^^^^^^^^^^^^^^^^^2^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+            # print(tag.contents)
+        return title_article, list_img
+        key_text = "var BASE_DATA"
+        # article = soup.find(["script", "style"])
+        # article = soup.find('div', class_='article-box')
+        # dict_list = json.loads(urllib.request.urlopen(req).)
+        # print(dict_list)
+        return
+
+        # article = soup.find_all('script')
+        # print(article)
+        # if len(article) >=1:
+        # #     title = article_info[0]['title'].get_text
+        #      print(article)
+
+        # if len() >= 1:
+        #     title = soup.select('title')[0].get_text
+        #     print(title)
+        contents = soup.select('content')
+        if len(contents) >= 1:
+            print(contents)
+
         images_pattern = re.compile(r'gallery: (.*?),\n')
         result = re.search(images_pattern, res.read().decode(errors='ignore'))
         if result:
@@ -85,6 +139,8 @@ def get_photo_urls(req, timeout=10):
             if data and 'sub_images' in data.keys():
                 print("yes")
                 return
+            else:
+                print("error")
 
         article_main = soup.find(name="article-box")
 
@@ -102,7 +158,7 @@ def get_photo_urls(req, timeout=10):
         return heading, img_list
 
 
-def save_photo(photo_url, save_dir, timeout=10):
+def save_photo(photo_url, save_dir, timeout=20):
     photo_name = photo_url.rsplit('/', 1)[-1] + '.jpg'
 
     # 这是 pathlib 的特殊操作，其作用是将 save_dir 和 photo_name 拼成一个完整的路径。例如：
@@ -135,11 +191,11 @@ if __name__ == '__main__':
             'format': 'json',
             'keyword': '街拍',
             'autoload': 'true',
-            'count': 1,  # 每次返回 20 篇文章
+            'count': 20,  # 每次返回 20 篇文章
             '_': timestamp
         }
         query_url = 'http://www.toutiao.com/search_content/' + '?' + _get_query_string(query_data)
-        print(query_url)
+        # print(query_url)
         article_req = request.Request(query_url, headers=request_headers)
         article_urls = get_article_urls(article_req)
 
@@ -165,7 +221,7 @@ if __name__ == '__main__':
                 # 这里使用文章的标题作为保存这篇文章全部图片的目录。
                 # 过滤掉了标题中在 windows 下无法作为目录名的特殊字符。
                 dir_name = re.sub(r'[\\/:*?"<>|]', '', article_heading)
-                download_dir = _create_dir(root_dir / dir_name)
+                download_dir = _create_dir(root_dir / str(offset))
 
                 # 开始下载文章中的图片
                 for p_url in photo_urls:
@@ -183,5 +239,5 @@ if __name__ == '__main__':
                 continue
 
         # 一次请求处理完毕，将偏移量加 20，继续获取新的 20 篇文章。
-        offset += 1
+        offset += 20
 
