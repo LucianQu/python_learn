@@ -64,7 +64,7 @@ class Douban(object):
     如果import到其他模块中，则__name__等于模块名称（不包含后缀）,而__main__等于当前执行文件的
     名称(包含后缀)，进而当模块被直接执行时，__name__ == "__main__"，结果为真
     __main__就是一个字符串而已，__name__是内置变量在直接执行时等于__main__
-    src.other.class_dog
+    src.module.class_dog
     文件__name__变量：
         1.当前文件执行时为__main__
         2.导入其他包时，为包路径不加后缀

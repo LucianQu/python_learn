@@ -31,7 +31,7 @@ def parse_one_page(html):
             wants.append(final[0])
         else:
             other = re.findall(pattern2, str(item))
-            # print(other[0])
+            # print(module[0])
             wants.append(other[0])
     return wants
 

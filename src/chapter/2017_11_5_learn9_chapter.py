@@ -3,7 +3,7 @@
 # author  : QLS
 # time    : 2017/11/5 19:45
 """****************-*******************"""
-from src.other.class_dog import Dog, Cat
+from src.module.class_dog import Dog, Cat
 from collections import OrderedDict  # 标准库练习--键值对
 """
 开始语：
@@ -110,7 +110,7 @@ python转义字符
     """
     # \oyy:八进制数，yy代表的字符，例如\o12代表换行
     # \xyy:十进制数，yy代表的字符，例如\x0a代表换行和ascii对应
-    # \other:
+    # \module:
 
 
 # with open('K:\\project\\python_learn\\file\wx_pi_digits.txt') as file_object:
