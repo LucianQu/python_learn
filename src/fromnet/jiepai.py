@@ -86,8 +86,11 @@ def get_photo_urls(req, timeout=20):
 
         # list_url = re.search(r"\//.*\&quot", soup)
         # print(list_url)
-
-        title_article = str(soup.select('title')[0].get_text)[36:-9]
+        title_article = ""
+        if soup.select('title'):
+            title_article = str(soup.select('title')[0].get_text)
+            if len(title_article) > 36:
+                title_article = title_article[36:-9]
         list_img = []
         for tag in soup.find_all(re.compile("script")):
 
@@ -175,7 +178,7 @@ def save_photo(photo_url, save_dir, timeout=20):
 
 if __name__ == '__main__':
     ongoing = True
-    offset = 50  # 请求的偏移量，每次累加 20
+    offset = 0  # 请求的偏移量，每次累加 20
     root_dir = _create_dir('D:\jiepai')  # 保存图片的根目录
     request_headers = {
         'Referer': 'http://www.toutiao.com/search/?keyword=%E8%A1%97%E6%8B%8D',
@@ -195,7 +198,7 @@ if __name__ == '__main__':
             '_': timestamp
         }
         query_url = 'http://www.toutiao.com/search_content/' + '?' + _get_query_string(query_data)
-        # print(query_url)
+        print(query_url)
         article_req = request.Request(query_url, headers=request_headers)
         article_urls = get_article_urls(article_req)
 
