@@ -5,6 +5,7 @@ from numpy import *
 import pandas as pd
 from sklearn.metrics import roc_curve #导入ROC曲线函数
 import matplotlib.pyplot as plt
+import os
 
 
 # calculate the sigmoid function
@@ -89,7 +90,11 @@ def testLogRegres(theta, test_x, test_y):
     plt.show()
 
 if __name__ == '__main__':
+    # print (os.path.abspath(os.path.join(os.getcwd(), "..")))
+
+    # original_data_file = os.path.abspath(os.path.join(os.getcwd(), ".."))+'\\data\\original-data.xls'
     original_data_file = '../data/original-data.xls'
+    # final_data_file = os.path.abspath(os.path.join(os.getcwd(), ".."))+'\\data\\finaldata.xls'
     final_data_file = '../data/finaldata.xls'
     cleanData(original_data_file, final_data_file)
     p = 0.8  #训练集所占的比例
