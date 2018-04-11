@@ -1,0 +1,2 @@
+1、from （文件路径名.文件名） import 类 -----导包注意
+    例如：from src.chapter.alien_invasion.settings import Settings
