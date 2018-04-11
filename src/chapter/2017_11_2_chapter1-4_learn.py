@@ -16,6 +16,7 @@ message = "hello python"
 print(message.lower())
 
 """*-字符串全部大写*"""
+
 message = "hello python"
 print(message.upper())
 
@@ -49,14 +50,16 @@ print(message.strip())
 """*-Python2中print语句有些包含括号，有些不包含，Python3则包含，Python3中的print是一个函数*"""
 
 """****************-整数*******************"""
-da = 2 ** 3
+da = 2 ** 3 #立方
 print(da)
 
 da = 0.1 + 0.5
 print(da)
 
 age = 23
-message = "my age is :" + str(age)
+
+print("****************Line:63*******************")
+message = "my age is :" + str(age) # age
 print(message)
 
 da = 3 / 2

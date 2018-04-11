@@ -5,30 +5,38 @@ alt + shift + f10 显示所有可运行的文件，并选择
 
 
 ---------------------------------------------------------pycharm快捷编辑内容
-cm1
+cml
 """**************** $input$ *******************"""
-cm2
+cmb
 """
 $input$
 """
-cm3
+cm1
 """* $input$ *"""
-cm4
+cmp
 print("****************Line:$input$*******************")
-cmm
-"""****************-*******************"""
-# describe: $input$
-# author  : $author$
-# time    : $date$ $time$
-"""****************-*******************"""
-ls
+cmt
+"""**************************************************************************
+*
+*  File name: $file_name$
+*  Date: $date$ $time$
+*  Copyright (c) 2013-2018 by Qulusheng.
+*  Author: Lucian_qls
+*  E-mail: 1017557706@qq.com
+*
+*  Function:
+*   .
+ * ChangeLog:
+ * V1.0
+**************************************************************************"""
+cms
 """
 * Learn Start !
 * Page : $page$
 * Time : $date$ $time$
 * Addr : $addr$
 """
-le
+cme
 """
 * Learn End !
 * Page : $page$
