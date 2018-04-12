@@ -24,3 +24,4 @@ class Settings():
 		self.screen_height = 600
 		self.bg_color = (230, 230, 230)
 		self.game_title = "蛤蟆坑外五虎将"
+		self.ship_speed_factor = 1

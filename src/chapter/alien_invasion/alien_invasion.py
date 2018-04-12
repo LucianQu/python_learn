@@ -37,15 +37,13 @@ def run_game():
     pygame.display.set_caption(play_setting.game_title)
 
     #创建一艘飞船
-    ship = Ship(screen)
+    ship = Ship(screen, play_setting)
     # 开始游戏的主循环
     while True:
         # 事件循环，侦听事件，根据事件发生的操作执行相应的任务，监视键盘和鼠标事件
-        gf.check_events()
+        gf.check_events(ship, play_setting)
 
         #更新屏幕
         gf.update_screen(play_setting, screen, ship)
-
-
 
 run_game() #运行游戏
