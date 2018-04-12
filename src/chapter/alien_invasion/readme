@@ -14,4 +14,6 @@
 2、创建游戏设置 settings文件
 3、创建飞船ship文件
 4、创建images文件夹用于放置飞船图片
-2018-4-11 23:29 史各庄 page 114
+    2018-4-11 23:29 史各庄 page 114
+5、创建game_functions文件，重构alien_invasion
+    2018-4-12 20:20
