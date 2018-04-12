@@ -17,6 +17,9 @@ import pygame # 包含开发游戏所需的功能
 from src.chapter.alien_invasion.settings import Settings
 from src.chapter.alien_invasion.ship import Ship
 
+import src.chapter.alien_invasion.game_functions as gf #导入的模块gf指定别名gf
+
+
 """
 1、pygame默认加载位图(.bmp)
 2、选择背景透明的图像，可用图像编辑器将背景设置为任何掩饰
@@ -38,18 +41,11 @@ def run_game():
     # 开始游戏的主循环
     while True:
         # 事件循环，侦听事件，根据事件发生的操作执行相应的任务，监视键盘和鼠标事件
-        for event in pygame.event.get():
-            # pygame检测到的事件，所有键盘和鼠标事件都将促使for循环运行
-            #编写一系列if语句来检测并响应特定事件，点击关闭则检测到pygame.QUIT
-            if event.type == pygame.QUIT:
-                sys.exit()
+        gf.check_events()
 
-        #每次循环时都重绘屏幕
-        screen.fill(play_setting.bg_color)
+        #更新屏幕
+        gf.update_screen(play_setting, screen, ship)
 
-        ship.blitme()
 
-        # 让最近绘制的屏幕可见,移动元素时要不停的更新屏幕，显示新元素的位置，并在原来的位置隐藏元素，从而营造平滑效果
-        pygame.display.flip()
 
 run_game() #运行游戏
