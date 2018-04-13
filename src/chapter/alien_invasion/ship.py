@@ -25,7 +25,7 @@ class Ship():
 		self.play_settings = play_settings #飞船游戏设置
 
 		#加载飞船图像并获取其外接矩形
-		self.image = pygame.image.load('images/ship.bmp')
+		self.image = pygame.image.load('images/ship7.bmp')
 		self.image_type = 0 #飞船图标标志
 		self.image_update = False #是否更新飞船图标
 
@@ -91,32 +91,41 @@ class Ship():
 		self.screen.blit(self.image, self.rect) #图像绘制在屏幕上
 	"""
 	更新飞船位置
+	rect.right
+	rect.left
+	rect.top
+	rect.bottom
 	"""
 	def update(self, settings):
 		"""* 根据移动标志调整飞船的位置 *"""
-		if self.moving_right:
-			# 向右移动飞船
-			if self.rect.centerx <= settings.screen_width- self.half_width:
-				speed = self.rect.centerx
-				speed += settings.ship_speed_factor
-				self.rect.centerx = speed
-		elif self.moving_left:
+		# 向右移动飞船
+		if self.moving_right and self.rect.right <= self.screen_rect.right:
+			speed = self.rect.centerx
+			speed += settings.ship_speed_factor
+			if speed > (self.screen_rect.right- self.half_width):
+				speed = self.screen_rect.right- self.half_width
+			self.rect.centerx = speed
+		elif self.moving_left and self.rect.left > 0:
 			#向左移动飞船
-			if self.rect.centerx >= self.half_width:
-				speed = self.rect.centerx
-				speed -= settings.ship_speed_factor
-				self.rect.centerx = speed
-		elif self.moving_up:
+			speed = self.rect.centerx
+			speed -= settings.ship_speed_factor
+			if speed < self.half_width:
+				speed = self.half_width
+			self.rect.centerx = speed
+		elif self.moving_up and self.rect.top > 0:
 			#向上移动飞船
-			if self.rect.bottom >= self.height:
-				speed = self.rect.bottom
-				speed -= settings.ship_speed_factor
-				self.rect.bottom = speed
+			speed = self.rect.bottom
+			speed -= settings.ship_speed_factor
+			if speed  < self.height:
+				speed = self.height
+			self.rect.bottom = speed
 		elif self.moving_down:
 			#向下移动飞船
-			if self.rect.bottom <= settings.screen_height:
+			if self.rect.bottom < self.screen_rect.bottom:
 				speed = self.rect.bottom
 				speed += settings.ship_speed_factor
+				if speed > self.screen_rect.bottom:
+					speed = self.screen_rect.bottom
 				self.rect.bottom = speed
 
 		#根据self.center更新rect对象

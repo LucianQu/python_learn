@@ -12,6 +12,7 @@
 *   .设置类
 *   Describe:
 *   .所有设置存储在这里，供程序调用
+	.这个类只包含方法__init__()，初始化控制游戏外观和飞船速度的属性
 * ChangeLog:
 *   V1.0
 **************************************************************************"""
@@ -24,4 +25,9 @@ class Settings():
 		self.screen_height = 600
 		self.bg_color = (230, 230, 230)
 		self.game_title = "蛤蟆坑外五虎将"
-		self.ship_speed_factor = 1
+		self.ship_speed_factor = 1.5
+		#子弹设置
+		self.bullet_speed_factor = 1
+		self.buttet_width = 3
+		self.bullet_height = 15
+		self.bullet_color = 60, 60, 60
