@@ -41,6 +41,8 @@ class Bullet(Sprite):
 	def update(self):
 		"""* 向上移动子弹 *"""
 		#更新表示子弹位置的小数值
+        # 当你对编组调用update时，编组将自动对其中的每个精灵调用update（），因此代码行bullets.update()
+        #将为编组bullets中的每颗子弹调用bullet.update（）
 		self.y -= self.speed_factor
 		#更新表示子弹的rect的位置
 		self.rect.y = self.y
