@@ -11,7 +11,7 @@
  * ChangeLog:
  * V1.0
 **************************************************************************"""
-import sys #使用模块sys退出游戏
+import sys  #使用模块sys退出游戏
 import pygame # 包含开发游戏所需的功能
 
 from src.chapter.alien_invasion.settings import Settings
