@@ -1,8 +1,9 @@
 from distutils.core import setup
 
 setup(
-    name='python_learn',
+    name='',
     version='',
+    # py_modules=[''],
     packages=[''],
     url='',
     license='',

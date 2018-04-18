@@ -18,7 +18,7 @@ from src.chapter.alien_invasion.settings import Settings
 from src.chapter.alien_invasion.ship import Ship
 
 import src.chapter.alien_invasion.game_functions as gf #导入的模块gf指定别名gf
-
+from pygame.sprite import Group #精灵编组
 
 """
 1、pygame默认加载位图(.bmp)
@@ -38,12 +38,20 @@ def run_game():
 
     #创建一艘飞船
     ship = Ship(screen, play_setting)
+
+    #创建一个用于存储子弹的编组
+    bullets = Group() #Group实例
+
     # 开始游戏的主循环
     while True:
         # 事件循环，侦听事件，根据事件发生的操作执行相应的任务，监视键盘和鼠标事件
-        gf.check_events(ship, play_setting)
+        gf.check_events(play_setting, screen, ship, bullets)
+
+        # 当你对编组调用update时，编组将自动对其中的每个精灵调用update（），因此代码行bullets.update()
+        # 将为编组bullets中的每颗子弹调用bullet.update（）
+        bullets.update()
 
         #更新屏幕
-        gf.update_screen(play_setting, screen, ship)
+        gf.update_screen(play_setting, screen, ship, bullets)
 
 run_game() #运行游戏
