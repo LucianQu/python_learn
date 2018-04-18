@@ -25,7 +25,7 @@ class Ship():
 		self.play_settings = play_settings #飞船游戏设置
 
 		#加载飞船图像并获取其外接矩形
-		self.image = pygame.image.load('images/ship.bmp')
+		self.image = pygame.image.load('images/ship7.bmp')
 		self.image_type = 0 #飞船图标标志
 		self.image_update = False #是否更新飞船图标
 
