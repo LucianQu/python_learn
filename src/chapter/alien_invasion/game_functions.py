@@ -48,7 +48,6 @@ def key_down_event(play_settings, screen, ship, event_key, bullets):
     elif event_key == pygame.K_DOWN:  # 键为下键
         # 向下移动飞船开始
         ship.moving_down = True
-
     elif event_key == pygame.K_1: #键为1
         #切换飞船图片为鼻涕糖号
         ship.image_type = 1
@@ -73,10 +72,9 @@ def key_down_event(play_settings, screen, ship, event_key, bullets):
         play_settings.ship_speed_factor += 0.5
     elif event_key == pygame.K_SPACE:
         # 创建一颗子弹，并将其加入到编组bullets中
-        new_bullet = Bullet(play_settings, screen, ship)
-        bullets.add(new_bullet)
-
-
+        fire_bullet(play_settings, screen, ship, bullets)
+    elif event_key == pygame.K_q:
+        sys.exit()
 
 """
 按键抬起
@@ -99,6 +97,9 @@ def key_up_event(ship, type):
 更新屏幕
 """
 def update_screen(play_setting, screen, ship, bullets):
+    #删除超出界面的子弹
+    delete_bullet(bullets)
+
     # 每次循环时都重绘屏幕
     screen.fill(play_setting.bg_color)
     ship.update_image()
@@ -111,4 +112,20 @@ def update_screen(play_setting, screen, ship, bullets):
     ship.blitme()
     # 让最近绘制的屏幕可见,移动元素时要不停的更新屏幕，显示新元素的位置，并在原来的位置隐藏元素，从而营造平滑效果
     pygame.display.flip()
-
+"""
+删除超出屏幕的子弹
+"""
+def delete_bullet(bullets):
+    for bullet in bullets.copy():
+        if bullet.rect.bottom <= 0:
+            bullets.remove(bullet)
+    print(len(bullets)) #将输出写入到终端花费的时间比将图形绘制到游戏窗口花费的时间还要多
+"""
+发射子弹
+"""
+def fire_bullet(play_settings, screen, ship, bullets):
+    """* 如果没有达到限制，就发射一颗子弹 *"""
+    #创建新子弹，并将其加入到编组bullets中
+    if len(bullets) < play_settings.bullets_allowed:
+        new_bullet = Bullet(play_settings, screen, ship)
+        bullets.add(new_bullet)
