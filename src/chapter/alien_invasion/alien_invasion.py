@@ -39,15 +39,16 @@ def run_game():
 
     #alien = Alien(play_setting, screen) # 创建一个外星人
     aliens = Group() #创建外星人编组
-    gf.create_fleet(play_setting, screen, aliens) #创建一群外星人
+    gf.create_fleet(play_setting, screen, aliens, ship) #创建一群外星人
     while True:
         # 事件循环，侦听事件，根据事件发生的操作执行相应的任务，监视键盘和鼠标事件
         gf.check_events(play_setting, screen, ship, bullets)
 
         # 当你对编组调用update时，编组将自动对其中的每个精灵调用update（），因此代码行bullets.update()
         # 将为编组bullets中的每颗子弹调用bullet.update（）
-        bullets.update()
-
+        gf.update_ship(play_setting, ship)
+        gf.update_bullets(bullets)
+        gf.update_aliens(aliens)
         gf.update_screen(play_setting, screen, ship,aliens, bullets)  #更新屏幕
 
 run_game() #运行游戏

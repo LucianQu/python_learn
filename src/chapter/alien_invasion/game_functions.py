@@ -99,21 +99,11 @@ def key_up_event(ship, type):
 def update_screen(play_setting, screen, ship,aliens, bullets):
     #删除超出界面的子弹
     delete_bullet(bullets)
-
     # 每次循环时都重绘屏幕
     screen.fill(play_setting.bg_color)
-    ship.update_image()
-    #降低长按键时，飞船移动速度
-    if play_setting.num < play_setting.max_num:
-        play_setting.num += 1
-    else:
-        ship.update(play_setting)
-        play_setting.num = 0
-
     #在飞船和外星人后面重绘所有子弹
     for bullet in bullets.sprites():
         bullet.draw_bullet()
-
     ship.blitme()
     aliens.draw(screen) # 编组调用draw时，pygame自动绘制编组的每个元素，绘制位置由元素的属性决定
 
@@ -140,14 +130,15 @@ def fire_bullet(play_settings, screen, ship, bullets):
 """
 创建外星人群
 """
-def create_fleet(play_settings, screen, aliens):
+def create_fleet(play_settings, screen, aliens, ship):
     """* 创建外星人群 *"""
     alien = Alien(play_settings, screen)
     number_aliens_x = get_number_aliens_x(play_settings, alien.rect.width)   #int确保外星人的数量为整数
-
+    number_rows = get_number_aliens_row(play_settings, alien.rect.height, ship.rect.height)
     #创建第一行外星人
-    for alien_number in range(number_aliens_x):
-        create_alien(play_settings, screen, aliens, alien_number) #创建一个外星人
+    for row_number in range(number_rows):
+        for alien_number in range(number_aliens_x):
+            create_alien(play_settings, screen, aliens, alien_number,row_number) #创建一个外星人
 """
 获取一行能容纳多少个外星人
 """
@@ -156,13 +147,40 @@ def get_number_aliens_x(play_setting, alien_width):
     available_space_x = play_setting.screen_width - 2 * alien_width
     number_aliens_x = int(available_space_x / (2 * alien_width))
     return number_aliens_x
+
+"""
+获取可以容纳多少行外星人
+"""
+def get_number_aliens_row(play_setting, alien_height, ship_height):
+    """* 计算多少列机器人 *"""
+    available_space_y = play_setting.screen_height - 3 * alien_height - ship_height
+    number_aliens_row = int(available_space_y  / (2 * alien_height))
+    return number_aliens_row
+
 """
 创建一个外星人
 """
-def create_alien(play_settings, screen, aliens, alien_number):
+def create_alien(play_settings, screen, aliens, alien_number, row_number):
     # 创建一个外星人并将其加入当前行
     alien = Alien(play_settings, screen)
     alien_width = alien.rect.width
     alien.x = alien_width + 2 * alien_width * alien_number
     alien.rect.x = alien.x
+    alien.rect.y = alien.rect.height + 2 * alien.rect.height * row_number
     aliens.add(alien)
+
+def update_aliens(aliens):
+    """* 更新外星人群中所有外星人的位置 *"""
+    aliens.update()
+
+def update_bullets(bullets):
+    bullets.update()
+
+def update_ship(play_settings, ship):
+    ship.update_image()
+    # 降低长按键时，飞船移动速度
+    if play_settings.num < play_settings.max_num:
+        play_settings.num += 1
+    else:
+        ship.update(play_settings)
+        play_settings.num = 0

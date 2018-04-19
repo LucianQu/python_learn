@@ -33,5 +33,8 @@ class Settings():
 		self.bullet_color = 60, 60, 60
 		self.bullets_allowed = 2
 
+		#降低按键敏感度
 		self.num = 0
 		self.max_num = 5
+
+		self.alien_speed_factor = 1
