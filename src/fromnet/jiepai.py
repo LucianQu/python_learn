@@ -7,11 +7,12 @@ from pathlib import Path
 from urllib import parse
 from urllib import error
 from urllib import request
+import requests
 from datetime import datetime
 from http.client import IncompleteRead
 from socket import timeout as socket_timeout
 import urllib
-
+import codecs
 from bs4 import BeautifulSoup
 
 
@@ -30,10 +31,16 @@ def _create_dir(name):
     根据传入的目录名创建一个目录，这里用到了 python3.4 引入的 pathlib 库。
     """
     directory = Path(name)
+    #directory1 = re.sub(r'[\/:*?"<>|]', " ", directory)  # 替换为下划线
     if not directory.exists():
+        #dir_name = re.sub(r'[\\\r\n]', '', directory)
         directory.mkdir()
     return directory
 
+def validateTitle(title):
+    rstr = r"[\/\\\:\*\?\"\<\>\|]"  # '/ \ : * ? " < > |'
+    new_title = re.sub(rstr, "_", title)  # 替换为下划线
+    return new_title
 
 def _get_query_string(data):
     """
@@ -176,10 +183,91 @@ def save_photo(photo_url, save_dir, timeout=20):
               .format(dir_name=dir_name, photo_name=photo_name, url=a_url))
 
 
+def get_page_index(offset, keyword):
+    data = {
+        'offset': offset,
+        'format': 'json',
+        'keyword': keyword,
+        'autoload': 'true',
+        'count': 20,
+        'cur_tab': 1,
+        'from': 'search_tab'
+    }
+    headers = {
+        'User-Agent': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"
+    }
+    try:
+        response = requests.get(url='https://www.toutiao.com/search_content', params=data, headers=headers)
+        if response.status_code == 200:
+            return response.text
+        return None
+    except :
+        print('请求索引页错误')
+        return None
+        pass
+def parse_page_index(html):
+    data = json.loads(html)
+    if data and 'data' in data.keys():
+        for item in data.get('data'):
+            if item and 'article_url' in item.keys():
+                yield item.get('article_url')
+
+            def get_page_detail(url):
+                try:
+                    response = requests.get(url)
+                    # response.encoding = response.apparent_encoding
+                    if response.status_code == 200:
+                        return response.text
+                    return None
+                except :
+                    print('请求详情页错误', url)
+                    return None
+                    pass
+
+def parse_page_detail(html, url):
+    soup = BeautifulSoup(html, 'lxml')
+    title = soup.select('title')[0].get_text()
+    print('title:', title)
+    images_pattern = re.compile(r'gallery: JSON.parse\("(.*?)"\),', re.S)
+    result = re.search(images_pattern, html)
+    if result:
+        # group(0)是原始字符串, group(1)是第一个括号匹配到的字符串
+        # groups()以元组形式返回全部分组截获的字符串。相当于调用group(1,2,…last)
+        # codecs: 使不具有转义的反斜杠具有转义功能
+        data_str = codecs.getdecoder('unicode_escape')(result.group(1))[0]
+        json_data = json.loads(data_str)
+        if json_data and 'sub_images' in json_data.keys():
+            sub_images = json_data.get('sub_images')
+            images = [item.get('url') for item in sub_images]
+            for image in images:
+                download_image(image)
+            return {
+                'title': title,
+                'images': images,
+                'url': url
+            }
+    else:
+        print('没有搜索到符合条件的gallery数据', end='\n\n')
+
+def download_image(url):
+    print('正在下载图片', url)
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            save_image(response.content)
+    except :
+        print('请求图片错误', url)
+        pass
+
+#def main(offset):
+#html = get_page_index(offset, KEYWORD)
+#for url in parse_page_index(html):
+#detail_html = get_page_detail(url)
+
 if __name__ == '__main__':
     ongoing = True
     offset = 0  # 请求的偏移量，每次累加 20
-    root_dir = _create_dir('D:\jiepai')  # 保存图片的根目录
+    root_dir = _create_dir('D:\\jiepai')  # 保存图片的根目录
     request_headers = {
         'Referer': 'http://www.toutiao.com/search/?keyword=%E8%A1%97%E6%8B%8D',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
@@ -223,7 +311,7 @@ if __name__ == '__main__':
 
                 # 这里使用文章的标题作为保存这篇文章全部图片的目录。
                 # 过滤掉了标题中在 windows 下无法作为目录名的特殊字符。
-                dir_name = re.sub(r'[\\/:*?"<>|]', '', article_heading)
+                dir_name = re.sub(r'[\\/\-：*?"<>|\\\r\\\n]', '', article_heading)
                 download_dir = _create_dir(root_dir / dir_name)
 
                 # 开始下载文章中的图片

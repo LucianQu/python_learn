@@ -180,7 +180,7 @@ def update_ship(play_settings, ship):
     ship.update_image()
     # 降低长按键时，飞船移动速度
     if play_settings.num < play_settings.max_num:
-        play_settings.num += 1
+        play_settings.num += 2
     else:
         ship.update(play_settings)
         play_settings.num = 0
