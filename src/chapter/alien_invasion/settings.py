@@ -24,7 +24,7 @@ class Settings():
 		self.screen_width = 800
 		self.screen_height = 600
 		self.bg_color = (230, 230, 230)
-		self.game_title = "蛤蟆坑外五虎将"
+		self.game_title = "Lucian小游戏"
 		self.ship_speed_factor = 1.5
 		#子弹设置
 		self.bullet_speed_factor = 1

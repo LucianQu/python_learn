@@ -6,6 +6,9 @@
 
 # import this社区之禅
 """****************-字符串*******************"""
+weight=input("输入冒号？")
+if weight=="123":
+    print("每天去跑步")
 
 """*-字符串首字母大写*"""
 message = "hello python"
@@ -95,6 +98,82 @@ print(buff[1][0])
 print(buff[0][-1])
 buff[0] = ['', '', '1']
 print(buff[0])
+
+# 导入随机工具包
+import random
+i = 3 ;
+while(i>0):
+    i = i -1;
+    # 用键盘接收输入
+    play = int(input("请输入您出的拳(1)石头，(2)布，(3)剪刀"))
+    # 电脑随时数
+    computer = random.randint(1, 3)
+    random.uniform(1, 3)
+    # 用逻辑符填充数据
+    print("玩家选择的拳头%d--电脑出的拳是%d" % (play, computer))
+    # 想赢，石头   胜   剪刀
+    # 想赢，布  胜   石头
+    # 想赢，剪刀  胜   布
+    if ((play == 1 and computer == 2) or (play == 2 and computer == 3) or (play == 3 and computer == 1)):
+        print("nnn")
+        print(computer)
+    elif play == computer:
+        print("真是心有灵犀啊，在来一盘")
+    else:
+        print("不服气，我们决战到天明")
+
+
+
+
+import random
+age = random.randint(18, 60)  # 随机一个数字,18-60岁
+print(age)
+count = 0  # 计数
+#f = open('price.txt', 'r', encoding='utf8')  # price.txt右下角为什么编码,则encoding为什么编码
+price_dict = dict(k=1,name="123")
+price_self = dict()
+while count < 3:
+    count += 1
+    inp_age = input('请输入你想要猜的年龄:')
+
+    # 判断是否为纯数字
+    if not inp_age.isdigit():
+        print('搞事就骂你傻逼')
+        continue
+    inp_age = int(inp_age)
+    # 筛选年龄范围
+    if inp_age > 60 or inp_age < 18:
+        print('好好题目,18-60岁,非诚勿扰')
+        continue
+    # 核心逻辑
+    if age == inp_age:
+        print('猜中了,请选择你的奖品')
+        # 打印商品
+        for k, v in price_dict.items():
+            print(f'奖品编号:{k} {v}')
+        # 获取奖品的两次循环
+        for i in range(2):
+            price_choice = input('请输入你需要的奖品编号:')
+            if not price_choice.isdigit():
+                print("恭喜你已经获得一次奖品,奖品为空!并且请输入正确的奖品编号!")
+                continue
+            price_choice = int(price_choice)
+            if price_choice not in price_dict:
+                print('你想多了吧!')
+            else:
+                price_get = price_dict[price_choice]
+                print(f'恭喜中奖:{price_get}')
+                if price_self.get(price_get):
+                    price_self[price_get] += 1
+                else:
+                    price_self[price_get] = 1
+            print(f'恭喜你获得以下奖品:{price_self}')
+            break
+    elif age > inp_age:
+        print('猜小了')
+    elif age < inp_age:
+        print('猜大了')
+    continue
 
 """*-在列表追加数据*"""
 buff.append(['1', '2', '3'])
