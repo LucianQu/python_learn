@@ -41,7 +41,8 @@ ppt_dir_path = "D:\python\./ppt"
 #url = "https://wenku.baidu.com/view/d4d2e1e3122de2bd960590c69ec3d5bbfd0adaa6.html"
 
 # url = 'https://wenku.baidu.com/view/526297e64531b90d6c85ec3a87c24028905f8521' # 学员需求 ppt文件下载
-url = 'https://wenku.baidu.com/view/b12ff5a18462caaedd3383c4bb4cf7ec4afeb69e?fr=sogou&_wkts_=1668521533825' # 学员需求 ppt文件下载
+# url = 'https://wenku.baidu.com/view/b12ff5a18462caaedd3383c4bb4cf7ec4afeb69e?fr=sogou&_wkts_=1668521533825' # 学员需求 ppt文件下载
+url = 'https://wenku.baidu.com/view/fb12611ab8f3f90f76c66137ee06eff9aef849b0?fr=TopList_highScoreList-pcview_toplistrec_highscore_wk_recommend_main3-e5322a2cb4daa58da0114a11&_wkts_=1668782061052' # 学员需求 ppt文件下载
 
 
 class DownloadImg():
