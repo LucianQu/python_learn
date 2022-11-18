@@ -72,11 +72,49 @@ time.sleep(2)
 
 driver.execute_script("window.scrollTo(0,400)")  # 跳转到页面初始位置
 
-time.sleep(10)
+
 #得到当前总页面
-all_page = driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div[2]/div[4]/div/div[1]/div[2]/div/div[1]/canvas').text
-all_page = driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div[2]/div[4]/div/div[1]/div[2]/div/div[1]/canvas').text
+# all_page = driver.find_element(By.XPATH,"//div[@class='goto-page']").text.replace("/ ", "")
+response = driver.get_cookies()
+
 print(str(all_page))
 
+result_text = ""
+i = 1
+# while (i <= int(1)):
+#     driver.find_element(By.XPATH,"//input[@class='cur-page']").clear()  #清除输入值
+#     driver.find_element(By.XPATH,"//input[@class='cur-page']").send_keys(i)  #设置跳转页面编号
+#     driver.find_element(By.XPATH,"//input[@class='cur-page']").send_keys(Keys.ENTER, '\ue007')  # 回车键
+#     time.sleep(2)
+#     result_text = result_text + driver.find_element(By.XPATH,"//div[@id='pageNo-{0}']".format(i)).text  #得到页面的文本
+#     time.sleep(2)
+#     i += 1
+#
+# result_text = result_text.replace("\n", "")
+# result_text = driver.find_element(By.XPATH,"//*[@id='app']/div[2]/div[2]")
 
 
+zf = 0
+while zf <= 9:
+    s = str(zf) + "、"
+    # print (s)
+    result_text = result_text.replace(s, "\n" + s)
+    zf += 1
+for zf_s in ('一', '二', '三', '四', '五', '六', '七', 'A', 'B', 'C', 'D', 'E'):
+    s = zf_s + "、"
+    t = zf_s + "."
+    result_text = result_text.replace(s, "\n" + s).replace(t, "\n" + t)
+result_text = result_text.replace("\n\n", "\n")
+
+docx_path = "课程设计.docx"
+doc = Document()
+doc.styles["Normal"].font.name = u"宋体"  # 设置字体样式
+doc.styles["Normal"].font.size = Pt(14)  # 设置字体大小
+doc.styles['Normal']._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')  # 设置文档的基础样式
+doc.add_paragraph(result_text)  # 增加一个paragraph,写入内容
+doc.save(r"D:\test.docx")
+
+#先将Base64转成doc文件
+def base64_to_doc(base64_data, doc_save_path): #param base64_data: base64流,param word_save_path: Word保存路径
+    with open(doc_save_path, 'wb') as f:
+        f.write(base64.b64decode(base64_data))

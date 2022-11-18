@@ -8,6 +8,7 @@ headers = {
 
 def get_num(url):
     response = requests.get(url, headers=headers).text
+    print(str(response))
     result = re.search(
         r'&md5sum=(.*)&sign=(.*)&rtcs_flag=(.*)&rtcs_ver=(.*?)".*rsign":"(.*?)",', response, re.M | re.I)  # 寻找参数
     reader = {
@@ -22,7 +23,7 @@ def get_num(url):
 
     result_page = re.findall(
         r'merge":"(.*?)".*?"page":(.*?)}', response)  # 获取每页的标签
-    doc_url = "https://wkretype.bdimg.com/retype/merge/" + url[29:-5]  # 网页的前缀
+    doc_url = "https://wenku.baidu.com/view/b12ff5a18462caaedd3383c4bb4cf7ec4afeb69e?fr=sogou&_wkts_=1668521533825"  # 网页的前缀
     n = 0
     for i in range(len(result_page)):  # 最大同时一次爬取10页
         if i % 10 is 0:

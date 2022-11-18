@@ -108,8 +108,13 @@ def get_content_doc(content):
     return result
 
 def main():
-    url = requests.get("https://wenku.baidu.com/view/b12ff5a18462caaedd3383c4bb4cf7ec4afeb69e?fr=sogou&_wkts_=1668521533825").url
-    content = fetch_url(url)
-    print("content = "+str(get_content_doc(content)))
+    # url = requests.get("https://wenku.baidu.com/view/b12ff5a18462caaedd3383c4bb4cf7ec4afeb69e?fr=sogou&_wkts_=1668521533825").url
+    response = requests.get("https://wenku.baidu.com/view/b12ff5a18462caaedd3383c4bb4cf7ec4afeb69e?fr=sogou&_wkts_=1668521533825")
+    cookie_value = ''
+    for key, value in response.cookies.items():
+        cookie_value += key + '=' + value + ';'
+    print(str(cookie_value))
+
+    # print("content = "+str(get_content_doc(content)))
 if __name__ == "__main__":
     main()
